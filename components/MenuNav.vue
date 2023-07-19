@@ -16,7 +16,7 @@
               </div>
 
               <div class="mt-2 sm:mt-0">
-                <h3 class=" text-xl font-semibold capitalize ">
+                <h3 class=" font-semibold capitalize ">
                   {{ sub.Juduls }}
                 </h3>
                 <p class="text-xs hidden sm:flex text-gray-500">
@@ -25,7 +25,7 @@
 
                 <ul class="space-y-1 text-gray-500 text-sm">
                   <hr class="my-2">
-                  <li v-for="daftar in sub.daftarmenu" :key="daftar.judul" class=" hover:text-blue-400 hover:font-semibold capitalize items-center duration-150">
+                  <li v-for="daftar in sub.daftarmenu" :key="daftar.judul" class="text-sm sm:text-md hover:text-blue-400 hover:font-semibold capitalize items-center duration-150">
                     <Icon name="uil:angle-right" class="w-3 h-3 mr-1" /> <span :class="daftar.anime"> {{ daftar.judul }}
                       <Icon :name="daftar.promo" class="w-3 h-3 mr-1" /></span>
                   </li>

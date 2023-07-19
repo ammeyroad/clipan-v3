@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;800&family=Nunito:ital,wght@0,500;0,900;0,1000;1,900&display=swap');
+
+
+@layer components {
+  .head1 {
+    @apply text-5xl font-extrabold antialiased sm:text-6xl;
+  }
+  .head2 {
+    @apply text-4xl font-extrabold antialiased sm:text-5xl;
+  }
+  .head3 {
+    @apply text-3xl font-extrabold antialiased sm:text-4xl;
+  }
+  .head4 {
+    @apply text-2xl font-extrabold antialiased sm:text-3xl;
+  }
+  .judul-card {
+    @apply text-lg font-bold antialiased hover:font-extrabold hover:italic sm:text-xl;
+  }
+  .hr {
+    @apply my-2;
+  }
+  .judul-sidebar {
+    @apply border-b-4 border-blue-500 bg-gradient-to-bl from-blue-600 to-blue-400 bg-clip-text text-xl font-bold uppercase text-transparent antialiased sm:text-2xl;
+  }
+  .bg-garbir {
+    @apply rounded-lg border duration-200 hover:border-blue-400 hover:bg-gradient-to-br hover:from-blue-500 hover:via-blue-600 hover:to-blue-700 hover:text-white hover:shadow-lg hover:shadow-blue-500/50;
+  }
+  .bg-birput {
+    @apply rounded-lg border border-blue-400 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 text-white shadow-blue-500/50 duration-200 hover:border-gray-100 hover:bg-gradient-to-br hover:from-white hover:to-gray-50 hover:text-black hover:shadow-lg;
+  }
+  .bg-birkun {
+    @apply rounded-lg border border-yellow-400 bg-gradient-to-br from-yellow-500 via-yellow-600 to-yellow-700 text-white shadow-yellow-500/50 duration-200 hover:border-gray-100 hover:bg-gradient-to-br hover:from-white hover:to-gray-50 hover:text-black hover:shadow-lg;
+  }
+  .btn-kuning {
+    @apply mb-2 mr-2 items-center rounded-lg bg-yellow-400 px-3 py-3 text-sm font-bold uppercase text-black shadow shadow-yellow-600/20 ring-2 ring-yellow-400 duration-300 hover:-translate-y-2 hover:bg-yellow-600 hover:shadow-lg hover:shadow-yellow-400/60;
+  }
+  .btn-biru {
+    @apply mb-2 mr-2 items-center rounded-lg bg-blue-400 px-3 py-3 text-sm font-bold uppercase text-white shadow shadow-blue-600/20 ring-2 ring-blue-400 duration-300 hover:-translate-y-2 hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-400/60;
+  }
+  .btn-garbir {
+    @apply mb-2 mr-2 items-center rounded-lg px-3 py-3 text-sm font-bold uppercase text-blue-400 shadow shadow-blue-400/20 ring-2 ring-blue-400 duration-300 hover:-translate-y-2 hover:bg-blue-400 hover:text-white hover:shadow-lg hover:shadow-blue-400/60;
+  }
+  .birgar {
+    @apply bg-gradient-to-bl from-blue-600 to-blue-400;
+  }
+  .putgar {
+    @apply bg-gradient-to-bl from-gray-50 to-white;
+  }
+  .hitgar {
+    @apply bg-gradient-to-bl from-gray-800 to-black;
+  }
+  .kungar {
+    @apply bg-gradient-to-bl from-yellow-600 to-yellow-400;
+  }
+
+}

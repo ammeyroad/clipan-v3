@@ -1,54 +1,84 @@
 <template>
- <div class="px-2 bg-blue-500">
-  <section class="carousel" aria-label="Gallery">
-    <ol class="carousel__viewport h-full">
-      <li id="carousel__slide1" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper"></div>
-        sdsadsd slide1
-        <p class="head2">slediea</p>
-      </li>
-      <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-        sdsadsd slide2
-        <p class="head2">slediea</p>
-        <div class="carousel__snapper"></div>
-      </li>
-      <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper"></div>
-        sdsadsd slide3
-        <p class="head2">slediea</p>
-      </li>
-      <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper"></div>
-        sdsadsd slide4
-        <p class="head2">slediea</p>
-      </li>
-    </ol>
-    <aside class="carousel__navigation">
-      <ol class="carousel__navigation-list">
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide1" class="carousel__navigation-button"
-            >Go to slide 1</a
-          >
+  <div class="">
+    <section class="carousel h-[600px]" aria-label="Gallery">
+      <ol class="carousel__viewport h-full">
+        <li id="carousel__slide1" tabindex="0" class="carousel__slide p-5">
+          <div class="carousel__snapper"></div>
+          <div class="grid sm:grid-cols-5 sm:space-x-16">
+            <div class="sm:col-span-2">
+              <img
+                src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+                loading="lazy"
+                alt="Photo by Fakurian Design"
+                class=""
+              />
+            </div>
+            <div class="sm:col-span-3">
+              <p class="text-left">
+                Berawal dari marketplace lalu tumbuh menjadi platform yang
+                memberikan banyak kemudahan untuk berbisnis. Inilah kami, Buka,
+                perusahaan yang terus berevolusi dan berinovasi untuk
+                kepentingan bersama.
+                
+              </p>
+            </div>
+          </div>
         </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide2" class="carousel__navigation-button"
-            >Go to slide 2</a
-          >
+        <li id="carousel__slide2" tabindex="0" class="carousel__slide ">
+          <div class="carousel__snapper"></div>
+           <div class="grid sm:grid-cols-5 sm:space-x-16">
+            
+            <div class="sm:col-span-3">
+              <p class="text-left">
+                Berawal dari marketplace lalu tumbuh menjadi platform yang
+                memberikan banyak kemudahan untuk berbisnis. Inilah kami, Buka,
+                perusahaan yang terus berevolusi dan berinovasi untuk
+                kepentingan bersama.
+                
+              </p>
+            </div>
+            <div class="sm:col-span-2">
+              <img
+                src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+                loading="lazy"
+                alt="Photo by Fakurian Design"
+                class=""
+              />
+            </div>
+          </div>
         </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide3" class="carousel__navigation-button"
-            >Go to slide 3</a
-          >
-        </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide4" class="carousel__navigation-button"
-            >Go to slide 4</a
-          >
+        <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          sdsadsd slide3
+          <p class="head2">slediea</p>
         </li>
       </ol>
-    </aside>
-  </section>
- </div>
+      <aside class="carousel__navigation">
+        <ol class="carousel__navigation-list">
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide1" class="carousel__navigation-button"
+              >Go to slide 1</a
+            >
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide2" class="carousel__navigation-button"
+              >Go to slide 2</a
+            >
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide3" class="carousel__navigation-button"
+              >Go to slide 3</a
+            >
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide4" class="carousel__navigation-button"
+              >Go to slide 4</a
+            >
+          </li>
+        </ol>
+      </aside>
+    </section>
+  </div>
 </template>
 
 <style>
@@ -129,9 +159,8 @@ li {
 
 .carousel {
   position: relative;
-  padding-top: 5%;
   filter: drop-shadow(0 0 10px #0003);
-  height: 600px;
+  perspective: 100px;
 }
 
 .carousel__viewport {
@@ -151,16 +180,45 @@ li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-    height: 600px;
-  background-color: #f99;
-  counter-increment: item;
 }
 
-.carousel__slide:nth-child(even) {
-  background-color: #99f;
-  
+
+.carousel__slide:before {
+ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -40%, 70px);
+ 
 }
 
+.carousel__snapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+}
+
+@media (hover: hover) {
+  .carousel__snapper {
+    animation-name: tonext, snap;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  .carousel__slide:last-child .carousel__snapper {
+    animation-name: tostart, snap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel__snapper {
+    animation-name: none;
+  }
+}
 
 .carousel:hover .carousel__snapper,
 .carousel:focus-within .carousel__snapper {
@@ -170,7 +228,7 @@ li {
 .carousel__navigation {
   position: absolute;
   right: 0;
-  bottom: 25px;
+  bottom: 0;
   left: 0;
   text-align: center;
 }

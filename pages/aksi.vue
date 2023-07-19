@@ -745,3 +745,9 @@ useHead({
   meta: [{ name: 'description', content: 'Clipan Finance Indonesia' }],
 });
 </script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;800&family=Nunito:ital,wght@0,500;0,900;0,1000;1,900&display=swap');
+
+
+</style>

@@ -2,7 +2,7 @@
   <main class="">
     <slot />
    
-    <div class="pt-12 lg:pt-16 mx-auto max-w-screen-xl">
+    <div class="pt-12 lg:pt-16 mx-auto max-w-screen-xl bg-blue-600 text-white">
         <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div
             class="mb-16 grid grid-cols-2 gap-5 md:grid-cols-5 lg:gap-4"

@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
 
 @layer components {
   .head1 {
@@ -57,5 +61,4 @@
   .kungar {
     @apply bg-gradient-to-bl from-yellow-600 to-yellow-400;
   }
-
 }

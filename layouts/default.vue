@@ -1,18 +1,25 @@
 <template>
   <main class="">
     <slot />
-   
-    <div class="pt-12 lg:pt-16 mx-auto max-w-screen-xl bg-blue-600 text-white">
+
+    <div class="pt-12 lg:pt-16 bg-blue-600 text-white">
+      <div class="mx-auto max-w-screen-xl">
         <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-          <div
-            class="mb-16 grid grid-cols-2 gap-5 md:grid-cols-5 lg:gap-4"
-          >
+          <div class="mb-16 grid grid-cols-2 gap-2 md:grid-cols-5 lg:gap-4">
             <div class="p-2 col-span-2">
               <!-- logo - start -->
               <div class="mb-4 lg:-mt-2">
                 <a
                   href="/"
-                  class="text-black-800 inline-flex items-center gap-2 text-xl font-bold md:text-2xl"
+                  class="
+                    text-black-800
+                    inline-flex
+                    items-center
+                    gap-2
+                    text-xl
+                    font-bold
+                    md:text-2xl
+                  "
                   aria-label="logo"
                 >
                   <svg
@@ -41,7 +48,13 @@
                 <a
                   href="#"
                   target="_blank"
-                  class="text-gray-400 transition duration-100 hover: active:text-gray-600"
+                  class="
+                    text-gray-400
+                    transition
+                    duration-100
+                    hover:
+                    active:text-gray-600
+                  "
                 >
                   <svg
                     class="h-5 w-5"
@@ -60,7 +73,13 @@
                 <a
                   href="#"
                   target="_blank"
-                  class="text-gray-400 transition duration-100 hover: active:text-gray-600"
+                  class="
+                    text-gray-400
+                    transition
+                    duration-100
+                    hover:
+                    active:text-gray-600
+                  "
                 >
                   <svg
                     class="h-5 w-5"
@@ -79,7 +98,13 @@
                 <a
                   href="#"
                   target="_blank"
-                  class="text-gray-400 transition duration-100 hover: active:text-gray-600"
+                  class="
+                    text-gray-400
+                    transition
+                    duration-100
+                    hover:
+                    active:text-gray-600
+                  "
                 >
                   <svg
                     class="h-5 w-5"
@@ -98,7 +123,13 @@
                 <a
                   href="#"
                   target="_blank"
-                  class="text-gray-400 transition duration-100 hover: active:text-gray-600"
+                  class="
+                    text-gray-400
+                    transition
+                    duration-100
+                    hover:
+                    active:text-gray-600
+                  "
                 >
                   <svg
                     class="h-5 w-5"
@@ -120,17 +151,14 @@
             <!-- nav - start -->
             <div class="p-5 hover:bg-black/20 rounded-xl duration-300">
               <div class="bg-black/10 p-3 rounded-lg w-12 h-12 mb-2">
-                <Icon name="heroicons-outline:phone-incoming" class="w-6 h-6 mr-2" />
+                <Icon
+                  name="heroicons-outline:phone-incoming"
+                  class="w-6 h-6 mr-2"
+                />
               </div>
-              <h1 class="font-black leading-none text-xl">
-                1500 333
-              </h1>
-              <h1 class="font-black leading-none tracking-tighter mt-4">
-                Kontak Customer Service
-              </h1>
-              <p class="mx-auto text-xs">
-                Senin – Jumat, 08.30-16.00
-              </p>
+              <h1 class="font-black">1500 333</h1>
+              <h1 class="font-semibold tracking-tighter mt-4">Telepon</h1>
+              <p class="mx-auto text-xs">Senin – Jumat, 08.30-16.00</p>
             </div>
             <!-- nav - end -->
 
@@ -139,15 +167,9 @@
               <div class="bg-black/10 p-3 rounded-lg w-12 h-12 mb-2">
                 <Icon name="heroicons-outline:envelope" class="w-6 h-6 mr-2" />
               </div>
-              <h1 class="font-black leading-none text-xl">
-                cs@clipan.co.id
-              </h1>
-              <h1 class="font-black leading-none tracking-tighter mt-4">
-                Kontak Customer Service
-              </h1>
-              <p class="mx-auto text-xs">
-                Senin – Jumat, 08.30-16.00
-              </p>
+              <h1 class="font-black">cs@clipan.co.id</h1>
+              <h1 class="font-semibold tracking-tighter mt-4">Email</h1>
+              <p class="mx-auto text-xs">Senin – Jumat, 08.30-16.00</p>
             </div>
             <!-- nav - end -->
 
@@ -156,28 +178,26 @@
               <div class="bg-black/10 p-3 rounded-lg w-12 h-12 mb-2">
                 <Icon name="heroicons-outline:map-pin" class="w-6 h-6 mr-2" />
               </div>
-              <h1 class="font-black leading-none text-xl">
-                Lihat Cabang
-              </h1>
-              <h1 class="font-black leading-none tracking-tighter mt-4">
-                Kontak Customer Service
-              </h1>
-              <p class="mx-auto text-xs">
-                Senin – Jumat, 08.30-16.00
-              </p>
+              <h1 class="font-black">Lihat Cabang</h1>
+              <h1 class="font-semibold tracking-tighter mt-4">Jam Layanan</h1>
+              <p class="mx-auto text-xs">Senin – Jumat, 08.30-16.00</p>
             </div>
           </div>
 
           <div
-            class="bg-black/20 rounded-t-lg py-8 text-center text-sm text-gray-400"
+            class="
+              bg-black/20
+              rounded-t-lg
+              py-8
+              text-center text-sm text-gray-400
+            "
           >
             © 2021 - Present Flowrift. All rights reserved.
           </div>
         </div>
       </div>
+    </div>
   </main>
 </template>
 
-<style>
-
-</style>
+<style></style>

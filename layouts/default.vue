@@ -3,7 +3,7 @@
 <nav class="fixed w-full z-20 top-0 left-0">
     <div class="max-w-screen-xl sm:mt-2 bg-white sm:rounded-xl flex items-center justify-between mx-auto sm:p-4 p-2 shadow-xl">
       <a href="/" class="flex items-center">
-        <img src="/clipan-logo.png" class="h-8">
+        <img src="/nuxt.png" class="h-8">
       </a>
       <div class="flex md:order-2 gap-2">
         <MenuCari />

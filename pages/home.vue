@@ -1,56 +1,163 @@
 <template>
   <div class="">
-    <section class="carousel h-[600px]" aria-label="Gallery">
+    <section
+      class="
+        carousel
+        h-[700px]
+        bg-[url('/background-slider.jpg')] bg-cover bg-no-repeat bg-left
+      "
+      style="backgroundimage: "
+      aria-label="Gallery"
+    >
       <ol class="carousel__viewport h-full">
         <li id="carousel__slide1" tabindex="0" class="carousel__slide p-5">
           <div class="carousel__snapper"></div>
-          <div class="grid sm:grid-cols-5 sm:space-x-16">
-            <div class="sm:col-span-2">
+
+          <div class="grid sm:grid-cols-2 max-w-screen-lg mx-auto items-center mt-20">
+            <div class=" space-y-8">
+              <h3 class="mb-6 font-sans text-4xl font-bold tracking-tight text-white sm:text-5xl sm:leading-none">
+                PEMBIAYAAN MULTIGUNA UNTUK SEMUA KEBUTUHAN
+              </h3>
+              <h5 class="font-bold text-lg text-left">
+                Berawal dari marketplace lalu tumbuh menjadi platform yang
+                memberikan banyak kemudahan untuk berbisnis.
+              </h5>
+
+              <a
+                href="#"
+                class="
+                  inline-block
+                  rounded-lg
+                  bg-blue-400
+                  px-4
+                  py-3
+                  text-center text-sm
+                  shadow shadow-blue-400/60
+                  hover:shadow-blue-400 hover:shadow-lg hover:-translate-y-2
+                  font-semibold
+                  hover:ring-2 hover:ring-blue-700/50
+                  text-white
+                  outline-none
+                  ring-indigo-300
+                  transition
+                  duration-100
+                  hover:bg-blue-600
+                  md:text-base
+                  uppercase
+                "
+              >
+                <Icon name="heroicons-outline:hand" class="w-6 h-6 mr-2" />Start
+                now</a
+              >
+            </div>
+            <div class="-mt-24 sm:mt-0 p-12">
               <img
-                src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+                src="/slider-1.png"
                 loading="lazy"
                 alt="Photo by Fakurian Design"
-                class=""
+                class="w-full pt-10"
               />
-            </div>
-            <div class="sm:col-span-3">
-              <p class="text-left">
-                Berawal dari marketplace lalu tumbuh menjadi platform yang
-                memberikan banyak kemudahan untuk berbisnis. Inilah kami, Buka,
-                perusahaan yang terus berevolusi dan berinovasi untuk
-                kepentingan bersama.
-                
-              </p>
             </div>
           </div>
         </li>
-        <li id="carousel__slide2" tabindex="0" class="carousel__slide ">
+        <li id="carousel__slide2" tabindex="0" class="carousel__slide">
           <div class="carousel__snapper"></div>
-           <div class="grid sm:grid-cols-5 sm:space-x-16">
-            
-            <div class="sm:col-span-3">
-              <p class="text-left">
+          <div class="flex max-w-screen-lg mx-auto items-center mt-20">
+            <div class="sm:w-1/2 space-y-8">
+              <h3 class="mb-6 font-sans text-4xl font-bold tracking-tight text-white sm:text-5xl sm:leading-none">
+                PEMBIAYAAN KENDARAAN MOBIL BARU
+              </h3>
+              <h5 class="font-bold text-lg text-left">
                 Berawal dari marketplace lalu tumbuh menjadi platform yang
-                memberikan banyak kemudahan untuk berbisnis. Inilah kami, Buka,
-                perusahaan yang terus berevolusi dan berinovasi untuk
-                kepentingan bersama.
-                
-              </p>
+                memberikan banyak kemudahan untuk berbisnis.
+              </h5>
+
+              <a
+                href="#"
+                class="
+                  inline-block
+                  rounded-lg
+                  bg-blue-400
+                  px-4
+                  py-3
+                  text-center text-sm
+                  shadow shadow-blue-400/60
+                  hover:shadow-blue-400 hover:shadow-lg hover:-translate-y-2
+                  font-semibold
+                  hover:ring-2 hover:ring-blue-700/50
+                  text-white
+                  outline-none
+                  ring-indigo-300
+                  transition
+                  duration-100
+                  hover:bg-blue-600
+                  md:text-base
+                  uppercase
+                "
+              >
+                <Icon name="heroicons-outline:hand" class="w-6 h-6 mr-2" />Start
+                now</a
+              >
             </div>
-            <div class="sm:col-span-2">
+            <div class="sm:w-1/2 p-12">
               <img
-                src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+                src="/slider-2.png"
                 loading="lazy"
                 alt="Photo by Fakurian Design"
-                class=""
+                class="w-full pt-10"
               />
             </div>
           </div>
         </li>
         <li id="carousel__slide3" tabindex="0" class="carousel__slide">
           <div class="carousel__snapper"></div>
-          sdsadsd slide3
-          <p class="head2">slediea</p>
+          <div class="flex max-w-screen-lg mx-auto items-center mt-20">
+            <div class="sm:w-1/2 p-12">
+              <img
+                src="/slider-3.png"
+                loading="lazy"
+                alt="Photo by Fakurian Design"
+                class="w-full"
+              />
+            </div>
+
+            <div class="sm:w-1/2 space-y-8">
+              <h3 class="mb-6 font-sans text-4xl font-bold tracking-tight text-white sm:text-5xl sm:leading-none">
+                PEMBIAYAAN KENDARAAN MOBIL BARU
+              </h3>
+              <h5 class="font-bold text-lg text-left">
+                Berawal dari marketplace lalu tumbuh menjadi platform yang
+                memberikan banyak kemudahan untuk berbisnis.
+              </h5>
+
+              <a
+                href="#"
+                class="
+                  inline-block
+                  rounded-lg
+                  bg-blue-400
+                  px-4
+                  py-3
+                  text-center text-sm
+                  shadow shadow-blue-400/60
+                  hover:shadow-blue-400 hover:shadow-lg hover:-translate-y-2
+                  font-semibold
+                  hover:ring-2 hover:ring-blue-700/50
+                  text-white
+                  outline-none
+                  ring-indigo-300
+                  transition
+                  duration-100
+                  hover:bg-blue-600
+                  md:text-base
+                  uppercase
+                "
+              >
+                <Icon name="heroicons-outline:hand" class="w-6 h-6 mr-2" />Start
+                now</a
+              >
+            </div>
+          </div>
         </li>
       </ol>
       <aside class="carousel__navigation">
@@ -182,14 +289,11 @@ li {
   width: 100%;
 }
 
-
 .carousel__slide:before {
- 
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate3d(-50%, -40%, 70px);
- 
 }
 
 .carousel__snapper {
@@ -228,7 +332,7 @@ li {
 .carousel__navigation {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
   text-align: center;
 }

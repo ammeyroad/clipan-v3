@@ -18,7 +18,7 @@
               flex-col
               sm:flex-row-reverse
               flex
-              max-w-screen-lg
+              max-w-screen-xl
               mx-auto
               items-center
               p-5
@@ -82,7 +82,7 @@
               flex-col
               sm:flex-row-reverse
               flex
-              max-w-screen-lg
+              max-w-screen-xl
               mx-auto
               items-center
               p-5
@@ -146,7 +146,7 @@
               flex-col
               sm:flex-row-reverse
               flex
-              max-w-screen-lg
+              max-w-screen-xl
               mx-auto
               items-center
               p-5

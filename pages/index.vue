@@ -2,23 +2,32 @@
   <div class="">
     <section
       class="
-        carousel
-        h-[700px]
+      carousel
         bg-[url('/background-slider.jpg')] bg-cover bg-no-repeat bg-left
       "
       style="backgroundimage: "
       aria-label="Gallery"
     >
-      <ol class="carousel__viewport h-full">
-        <li id="carousel__slide1" tabindex="0" class="carousel__slide p-5">
+      <ol class="carousel__viewport py-20  bg-[url('/background-slider.jpg')] bg-cover bg-no-repeat bg-left">
+        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
           <div class="carousel__snapper"></div>
 
-          <div class="grid sm:grid-cols-2 max-w-screen-lg mx-auto items-center mt-20">
-            <div class=" space-y-8">
-              <h3 class="mb-6 font-sans text-4xl font-bold tracking-tight text-white sm:text-5xl sm:leading-none">
+          <div class="grid sm:grid-cols-2 max-w-screen-lg mx-auto items-center">
+            <div class="space-y-8">
+              <h3
+                class="
+                  mb-6
+                  font-sans
+                  text-4xl
+                  font-bold
+                  tracking-tight
+                  text-white
+                  sm:text-5xl sm:leading-none
+                "
+              >
                 PEMBIAYAAN MULTIGUNA UNTUK SEMUA KEBUTUHAN
               </h3>
-              <h5 class="font-bold text-lg text-left">
+              <h5 class="hidden sm:flex font-bold text-lg text-left">
                 Berawal dari marketplace lalu tumbuh menjadi platform yang
                 memberikan banyak kemudahan untuk berbisnis.
               </h5>
@@ -62,12 +71,22 @@
         </li>
         <li id="carousel__slide2" tabindex="0" class="carousel__slide">
           <div class="carousel__snapper"></div>
-          <div class="flex max-w-screen-lg mx-auto items-center mt-20">
+          <div class="flex max-w-screen-lg mx-auto items-center">
             <div class="sm:w-1/2 space-y-8">
-              <h3 class="mb-6 font-sans text-4xl font-bold tracking-tight text-white sm:text-5xl sm:leading-none">
+              <h3
+                class="
+                  mb-6
+                  font-sans
+                  text-4xl
+                  font-bold
+                  tracking-tight
+                  text-white
+                  sm:text-5xl sm:leading-none
+                "
+              >
                 PEMBIAYAAN KENDARAAN MOBIL BARU
               </h3>
-              <h5 class="font-bold text-lg text-left">
+              <h5 class="hidden sm:flex  font-bold text-lg text-left">
                 Berawal dari marketplace lalu tumbuh menjadi platform yang
                 memberikan banyak kemudahan untuk berbisnis.
               </h5>
@@ -111,7 +130,7 @@
         </li>
         <li id="carousel__slide3" tabindex="0" class="carousel__slide">
           <div class="carousel__snapper"></div>
-          <div class="flex max-w-screen-lg mx-auto items-center mt-20">
+          <div class="flex max-w-screen-lg mx-auto items-center">
             <div class="sm:w-1/2 p-12">
               <img
                 src="/slider-3.png"
@@ -122,10 +141,20 @@
             </div>
 
             <div class="sm:w-1/2 space-y-8">
-              <h3 class="mb-6 font-sans text-4xl font-bold tracking-tight text-white sm:text-5xl sm:leading-none">
+              <h3
+                class="
+                  mb-6
+                  font-sans
+                  text-4xl
+                  font-bold
+                  tracking-tight
+                  text-white
+                  sm:text-5xl sm:leading-none
+                "
+              >
                 PEMBIAYAAN KENDARAAN MOBIL BARU
               </h3>
-              <h5 class="font-bold text-lg text-left">
+              <h5 class="hidden sm:flex  font-bold text-lg text-left">
                 Berawal dari marketplace lalu tumbuh menjadi platform yang
                 memberikan banyak kemudahan untuk berbisnis.
               </h5>
@@ -185,6 +214,103 @@
         </ol>
       </aside>
     </section>
+      <!-- sejarah singkat -->
+  <section class="max-w-screen-lg px-5 mx-auto space-y-12 z-20">
+    <div class="">
+      <p class="font-semibold text-yellow-500 text-sm xl:text-xl"></p>
+      <span
+        class="
+          bg-yellow-400
+          text-black text-xs
+          font-medium
+          mr-2
+          px-2.5
+          py-1.5
+          rounded-xl
+        "
+        >Sejarah Singkat</span
+      >
+      <h3 class="text-blue-600 text-2xl pt-2 font-bold md:text-4xl">
+        Perusahaan Clipan
+      </h3>
+      <garis />
+    </div>
+
+    <div class="grid sm:grid-cols-5 sm:space-x-16">
+      <div class="sm:col-span-2">
+        <img
+          src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+          loading="lazy"
+          alt="Photo by Fakurian Design"
+          class=""
+        />
+      </div>
+      <div class="sm:col-span-3">
+        <p class="text-left">
+          Berawal dari marketplace lalu tumbuh menjadi platform yang memberikan
+          banyak kemudahan untuk berbisnis. Inilah kami, Buka, perusahaan yang
+          terus berevolusi dan berinovasi untuk kepentingan bersama.
+          <br /><br />
+
+          Dalam tonggak sejarah berikutnya, tepatnya pada 17 Mei 1990, Perseroan
+          melakukan perubahan nama dari semula PT Clipan Leasing Corporation
+          menjadi PT Clipan Finance Indonesia yang mana perubahan tersebut
+          mengacu pada Akta No. 56 tanggal 17 Mei 1990 dan telah disahkan
+          melalui Surat Keputusan Menteri Kehakiman Republik Indonesia No.
+          C2.3418.HT.01.04.th 90 tanggal 5 Juli 1990.
+          <br /><br />
+
+          Dalam rangka memperkuat posisi Perseroan di industri pembiayaan
+          nasional, maka pada 27 Agustus 1990 Perseroan resmi melakukan
+          penawaran saham perdana di Bursa Efek Jakarta (BEJ) yang kini bernama
+          Bursa Efek Indonesia (BEI). Atas aksi korporasi tersebut, Perseroan
+          tercatat sebagai perusahaan pembiayaan pertama yang go public di
+          Indonesia.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex w-full md:mx-auto md:max-w-screen-xl overflow-x-auto">
+      <div class="flex space-x-4">
+        <div class="w-52 sm:w-1/4 bg-blue-400 p-4">
+          <p>sdasdsadsad</p>
+          <img
+            src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+            loading="lazy"
+            alt="Photo by Fakurian Design"
+            class=""
+          />
+        </div>
+        <div class="w-52 sm:w-1/4 bg-blue-400 p-4">
+          <p>sdasdsadsad</p>
+          <img
+            src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+            loading="lazy"
+            alt="Photo by Fakurian Design"
+            class=""
+          />
+        </div>
+        <div class="w-52 sm:w-1/4 bg-blue-400 p-4">
+          <p>sdasdsadsad</p>
+          <img
+            src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+            loading="lazy"
+            alt="Photo by Fakurian Design"
+            class=""
+          />
+        </div>
+        <div class="w-52 sm:w-1/4 bg-blue-400 p-4">
+          <p>sdasdsadsad</p>
+          <img
+            src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+            loading="lazy"
+            alt="Photo by Fakurian Design"
+            class=""
+          />
+        </div>
+      </div>
+    </div>
+  </section>
   </div>
 </template>
 
@@ -265,7 +391,7 @@ li {
 }
 
 .carousel {
-  position: relative;
+ 
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;
 }

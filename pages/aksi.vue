@@ -256,14 +256,15 @@
         </div>
       </div>
       <div>
-      <div>
-        <div class="head3">Budaya Perusahaan</div>
-        <p>
-          Menyediakan produk dan jasa keuangan yang inovatif didukung sumber
-          daya manusia yang handal dan teknologi terkini.
-        </p>
-      </div>
-      <div class="flex mt-5 w-full md:mx-auto md:max-w-screen-xl overflow-x-auto">
+        <div>
+          <div class="head3">Budaya Perusahaan</div>
+          <p>
+            Menyediakan produk dan jasa keuangan yang inovatif didukung sumber
+            daya manusia yang handal dan teknologi terkini.
+          </p>
+        </div>
+
+        <!-- <div class="flex mt-5 w-full md:mx-auto md:max-w-screen-xl overflow-x-auto">
         <div class="flex space-x-4">
          <div class="w-52 sm:w-1/5 bg-blue-400 p-4">
            <div class="flex items-center">
@@ -396,10 +397,170 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
       </div>
     </div>
   </section>
+  <div class="flex mt-5 w-full overflow-x-auto">
+    <div class="flex py-12">
+      <div
+      
+        class="
+          w-72
+          ml-8
+          snap-center
+          block
+          rounded-2xl
+          border border-jacarta-100
+          bg-white
+          p-2
+          text-gray-600
+          hover:text-blue-600
+          transition-shadow
+          hover:shadow-lg
+        "
+      >
+        <figure class="relative">
+          <a href="item.html">
+            <img
+              src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+              alt="item 5"
+              class="h-64 rounded-[0.625rem]"
+              loading="lazy"
+            />
+          </a>
+          <div
+            class="
+              absolute
+              top-3
+              right-3
+              flex
+              items-center
+              space-x-1
+              rounded-md
+              bg-white
+              p-2
+            "
+          >
+            <span class="text-sm dark:text-jacarta-200">Mobil Baru</span>
+          </div>
+          <div class="absolute right-3 -bottom-5">
+            <div class="flex">
+              <a href="#">
+                <img
+                  src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+                  alt="owner"
+                  class="
+                    h-10
+                    w-10
+                    rounded-full
+                    border-2 border-white
+                    hover:border-accent
+                    dark:border-jacarta-600 dark:hover:border-accent
+                  "
+                  data-tippy-content="Owner: Sussygirl"
+                />
+              </a>
+            </div>
+          </div>
+        </figure>
+        <div class="p-2">
+          <div class="mt-4 flex items-center justify-between">
+            <a href="item.html">
+              <span class="font-bold "
+                >Mitsubishi <br />
+                PAJERO SPORT DAKAR 4X2 2.4</span
+              >
+            </a>
+          </div>
+          <div class="mt-2 flex space-x-1 w-full overflow-x-auto text-xs text-gray-900">
+            <div
+              class="
+                flex
+                items-center
+                bg-gray-100
+                w-max
+                p-2
+                rounded
+                opacity-50
+                hover:opacity-100 hover:fill-blue-600 hover:text-blue-600
+              "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                class="w-4"
+              >
+                <path
+                  d="M12 19a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm0-4a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm-5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm7-12h-1V2a1 1 0 0 0-2 0v1H8V2a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3Zm1 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-9h16Zm0-11H4V6a1 1 0 0 1 1-1h1v1a1 1 0 0 0 2 0V5h8v1a1 1 0 0 0 2 0V5h1a1 1 0 0 1 1 1ZM7 15a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm0 4a1 1 0 1 0-1-1a1 1 0 0 0 1 1Z"
+                />
+              </svg>
+              <span class="ml-1">2012</span>
+            </div>
+            <div
+              class="
+                flex
+                items-center
+                bg-gray-100
+                w-max
+                p-2
+                rounded
+                opacity-50
+                hover:opacity-100 hover:fill-blue-600 hover:text-blue-600
+              "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-4"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#888888"
+                  d="M12 11a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm0-9a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm1 17.93V17a1 1 0 0 0-2 0v2.93A8 8 0 0 1 4.07 13H7a1 1 0 0 0 0-2H4.07A8 8 0 0 1 11 4.07V7a1 1 0 0 0 2 0V4.07A8 8 0 0 1 19.93 11H17a1 1 0 0 0 0 2h2.93A8 8 0 0 1 13 19.93Z"
+                />
+              </svg>
+              <span class="ml-1">Matic</span>
+            </div>
+            <div
+              class="
+                flex
+                items-center
+                bg-gray-100
+                w-max
+                p-2
+                rounded
+                opacity-50
+                hover:opacity-100 hover:fill-blue-600 hover:text-blue-600
+              "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-4"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#888888"
+                  d="M11 11.9V17a1 1 0 0 0 2 0v-5.1a5 5 0 1 0-2 0ZM12 4a3 3 0 1 1-3 3a3 3 0 0 1 3-3Zm4.21 10.42a1 1 0 1 0-.42 2C18.06 16.87 19 17.68 19 18c0 .58-2.45 2-7 2s-7-1.42-7-2c0-.32.94-1.13 3.21-1.62a1 1 0 1 0-.42-2C4.75 15.08 3 16.39 3 18c0 2.63 4.53 4 9 4s9-1.37 9-4c0-1.61-1.75-2.92-4.79-3.58Z"
+                />
+              </svg>
+              <span class="ml-1"> 12.123 km</span>
+            </div>
+          </div>
+
+          <div class="mt-8 flex items-bottom justify-between">
+            <p>
+              <sub>Mulai dari </sub><br />
+              <span class="text-lg font-bold text-blue-600">Rp. 20.000.000</span>
+              <span class="text-xs"> /bulan</span>
+            </p>
+            <p>
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="mt-6" viewBox="0 0 24 24"><path fill="#888888" d="M20.16 5A6.29 6.29 0 0 0 12 4.36a6.27 6.27 0 0 0-8.16 9.48l6.21 6.22a2.78 2.78 0 0 0 3.9 0l6.21-6.22a6.27 6.27 0 0 0 0-8.84Zm-1.41 7.46l-6.21 6.21a.76.76 0 0 1-1.08 0l-6.21-6.24a4.29 4.29 0 0 1 0-6a4.27 4.27 0 0 1 6 0a1 1 0 0 0 1.42 0a4.27 4.27 0 0 1 6 0a4.29 4.29 0 0 1 .08 6Z"/></svg>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script lang="ts" setup>
@@ -412,6 +573,4 @@ useHead({
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;800&family=Nunito:ital,wght@0,500;0,900;0,1000;1,900&display=swap');
-
-
 </style>

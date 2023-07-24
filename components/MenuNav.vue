@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-4 h-18 sm:h-16 content-center z-20 sm:mt-3 bg-white sm:inset-0 sm:max-w-md mx-auto fixed sm:top-0 bottom-0 left-0 w-full">
-    <button v-for="menu in nav" type="button" class=" mt-2 items-center p-2.5 duration-300 gap-2 items-center text-gray-600 justify-center hover:text-blue-400 rounded-lg group">
+    <button v-for="menu in nav" type="button" class=" mt-2 items-center p-2.5 duration-300 gap-2 items-center text-gray-600 justify-center hover:text-blue-600 rounded-lg group">
       <div class=" w-max mx-auto">
         <Icon :name="menu.icon" class="w-6 h-6" />
         <p class="font-bold  uppercase text-xs sm:text-md">
@@ -19,13 +19,13 @@
                 <h3 class=" font-semibold capitalize ">
                   {{ sub.Juduls }}
                 </h3>
-                <p class="text-xs hidden sm:flex text-gray-500">
+                <p class="sm:text-xs  text-gray-500">
                   {{ sub.deskripsi }}
                 </p>
 
-                <ul class="space-y-1 text-gray-500 text-sm">
+                <ul class="space-y-1 hidden sm:flex flex-col text-gray-500 text-sm">
                   <hr class="my-2">
-                  <li v-for="daftar in sub.daftarmenu" :key="daftar.judul" class="text-sm sm:text-md hover:text-blue-400 hover:font-semibold capitalize items-center duration-150">
+                  <li v-for="daftar in sub.daftarmenu" :key="daftar.judul" class="text-sm sm:text-md hover:text-blue-600 hover:font-semibold capitalize items-center duration-150">
                     <Icon name="uil:angle-right" class="w-3 h-3 mr-1" /> <span :class="daftar.anime"> {{ daftar.judul }}
                       <Icon :name="daftar.promo" class="w-3 h-3 mr-1" /></span>
                   </li>
@@ -151,7 +151,7 @@ const nav = [
       daftarmenu: [{
         judul: 'KPM Panin',
         promo: 'ic:twotone-thumb-up',
-        anime: 'animate-pulse text-blue-400 font-bold',
+        anime: 'animate-pulse text-blue-600 font-bold',
         to: '/mobil-baru#'
       },
       {
@@ -188,7 +188,7 @@ const nav = [
       {
         judul: 'Jaringan Digital',
         promo: 'ic:twotone-thumb-up',
-        anime: 'animate-pulse text-blue-400 font-bold',
+        anime: 'animate-pulse text-blue-600 font-bold',
         to: '/mobil-bekas#'
       }
       ]
@@ -213,7 +213,7 @@ const nav = [
       {
         judul: 'Peluang Bisnis',
         promo: 'ic:twotone-thumb-up',
-        anime: 'animate-pulse text-blue-400 font-bold',
+        anime: 'animate-pulse text-blue-600 font-bold',
         to: '/duit-cair#'
       }
       ]
@@ -230,7 +230,7 @@ const nav = [
       {
         judul: 'Pengertian Fleet',
         promo: 'ic:twotone-thumb-up',
-        anime: 'animate-pulse text-blue-400 font-bold',
+        anime: 'animate-pulse text-blue-600 font-bold',
         to: '/alat-berat-fleet'
       },
       {
@@ -256,7 +256,7 @@ const nav = [
       {
         judul: 'Kehilangan STNK',
         promo: 'ic:twotone-thumb-up',
-        anime: 'animate-pulse text-blue-400 font-bold',
+        anime: 'animate-pulse text-blue-600 font-bold',
         to: '/layanan#'
       },
       {
@@ -285,7 +285,7 @@ const nav = [
       {
         judul: 'Tahap Pengambilan',
         promo: 'ic:twotone-thumb-up',
-        anime: 'animate-pulse text-blue-400 font-bold',
+        anime: 'animate-pulse text-blue-600 font-bold',
         to: '/layanan#'
       },
       {
@@ -306,7 +306,7 @@ const nav = [
       {
         judul: 'Melalui Bank Panin',
         promo: 'ic:twotone-thumb-up',
-        anime: 'animate-pulse text-blue-400 font-bold',
+        anime: 'animate-pulse text-blue-600 font-bold',
         to: '/layanan#'
       },
       {
@@ -331,7 +331,7 @@ const nav = [
       {
         judul: 'Dokumen Kredit',
         promo: 'ic:twotone-thumb-up',
-        anime: 'animate-pulse text-blue-400 font-bold',
+        anime: 'animate-pulse text-blue-600 font-bold',
         to: '/layanan#'
       },
       {
@@ -365,7 +365,7 @@ const nav = [
       {
         judul: 'Keungulan CLimo',
         promo: 'ic:twotone-thumb-up',
-        anime: 'animate-pulse text-blue-400 font-bold',
+        anime: 'animate-pulse text-blue-600 font-bold',
         to: '/layanan#'
       },
       {
@@ -386,7 +386,7 @@ const nav = [
       {
         judul: 'produk',
         promo: 'ic:twotone-thumb-up',
-        anime: 'animate-pulse text-blue-400 font-bold',
+        anime: 'animate-pulse text-blue-600 font-bold',
         to: '/layanan#'
       },
       {
@@ -396,7 +396,7 @@ const nav = [
       {
         judul: 'Layanan',
         promo: 'ic:twotone-thumb-up',
-        anime: 'animate-pulse text-blue-400 font-bold',
+        anime: 'animate-pulse text-blue-600 font-bold',
         to: '/layanan#'
       }
       ]
@@ -421,7 +421,7 @@ const nav = [
       {
         judul: 'Promo GIIAS',
         promo: 'ic:twotone-thumb-up',
-        anime: 'animate-pulse text-blue-400 font-bold',
+        anime: 'animate-pulse text-blue-600 font-bold',
         to: '/layanan#'
       }
       ]

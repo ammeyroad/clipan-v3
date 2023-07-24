@@ -404,7 +404,6 @@
   <div class="flex mt-5 w-full overflow-x-auto">
     <div class="flex py-12">
       <div
-      
         class="
           w-72
           ml-8

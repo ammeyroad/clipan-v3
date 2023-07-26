@@ -3,6 +3,5 @@
     <MenuUtama />
     <slot />
     <LayoutFooter />
-   
   </main>
 </template>

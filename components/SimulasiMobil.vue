@@ -1,42 +1,43 @@
 <template>
   <div class="container mx-auto p-4">
     <h1 class="text-2xl font-bold mb-4">Car Loan Calculator</h1>
-    <form @submit.prevent="calculateInstallments">
+    <form @submit.prevent="calculateLoan">
       <div class="mb-2">
-        <label for="hargaotr" class="block font-bold">Harga OTR:</label>
+        <label for="otr" class="block font-bold">Harga OTR:</label>
         <input
           type="number"
-          id="hargaotr"
+          id="otr"
           class="w-full p-2 border rounded"
           v-model.number="hargaOtr"
           required
         >
       </div>
       <div class="mb-2">
-        <label for="nominalDP" class="block font-bold">Nominal Uang Muka:</label>
-        <input
+        <label for="dpPercentage" class="block font-bold">Uang Muka (%):</label>
+         <input
           type="number"
-          id="nominalDP"
+          id="dpPercentage"
           class="w-full p-2 border rounded"
-          v-model.number="nominalDp"
+          v-model.number="dpPercentage"
+          @change="calculateDpNominal"
           required
         >
+
       </div>
       <div class="mb-2">
-        <label for="persenDP" class="block font-bold">Persen Uang Muka:</label>
+        <label for="dpNominal" class="block font-bold">Nominal Uang Muka:</label>
         <input
           type="number"
-          id="persenDP"
+          id="dpNominal"
           class="w-full p-2 border rounded"
-          v-model.number="persenDp"
+          v-model.number="dpNominal"
+          @input="calculateDpPercentage"
           required
         >
       </div>
-      <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-        {{ calculated ? "Recalculate" : "Calculate" }}
-      </button>
+      <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Calculate</button>
     </form>
-    <div v-if="showInstallments">
+    <div v-if="installments.length > 0">
       <h2 class="text-lg font-bold mb-2">Installment Options:</h2>
       <div v-for="installment in installments" :key="installment.term" class="mb-2">
         <input
@@ -47,36 +48,35 @@
           v-model="selectedInstallment"
         >
         <label :for="`term-${installment.term}`">{{ installment.term }} Bulan: {{ installment.installment }}</label>
-        <span class="ml-4">Total Payment: {{ (nominalDp + installment.installment).toFixed(2) }}</span>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-
 const hargaOtr = ref(0);
-const nominalDp = ref(0);
-const persenDp = ref(0);
-const calculated = ref(false);
+const dpPercentage = ref(20);
+const dpNominal = ref(0);
 const selectedInstallment = ref(null);
-
-const showInstallments = computed(() => calculated.value && installments.value.length > 0);
+const installments = ref([]);
 
 const calculateDpNominal = () => {
-  nominalDp.value = hargaOtr.value * (persenDp.value / 100);
+  dpNominal.value = hargaOtr.value * (dpPercentage.value / 100);
 };
 
-const calculateInstallments = () => {
+const calculateDpPercentage = () => {
+  dpPercentage.value = (dpNominal.value / hargaOtr.value) * 100;
+};
+
+const calculateLoan = () => {
   calculateDpNominal();
   const terms = [12, 24, 36];
   const installmentOptions = terms.map((term) => {
-    const installment = Math.ceil((hargaOtr.value - nominalDp.value) / term / 1000) * 1000;
+    const installment = Math.ceil((hargaOtr.value - dpNominal.value) / term / 1000) * 1000;
     return { term, installment };
   });
   installments.value = installmentOptions;
-  calculated.value = true;
 };
 
-const installments = ref([]);
+watch([hargaOtr, dpNominal, dpPercentage], () => calculateLoan());
 </script>

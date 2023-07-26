@@ -2,9 +2,7 @@
   <div class="">
     <SliderUtama />
     <HomeKuning />
-   
-    <!-- sejarah singkat -->
-   <SejarahSingkat />
+   <HomeSejarah />
 
     <!-- Simulasi -->
     <section class="bg-gradient-to-br from-blue-500 to-blue-600 py-32">

@@ -2,7 +2,7 @@
   <main class="">
     <MenuUtama />
     <slot />
-    <FooterUtama />
+    <LayoutFooter />
    
   </main>
 </template>

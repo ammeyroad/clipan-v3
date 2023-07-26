@@ -13,31 +13,20 @@
                   inline-flex
                   items-center
                   gap-2
-                  text-xl
                   font-bold
-                  md:text-2xl
+                  md:text-lg
                 "
                 aria-label="logo"
               >
-                <svg
-                  width="95"
-                  height="94"
-                  viewBox="0 0 95 94"
-                  class="h-auto w-5 text-indigo-500"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M96 0V47L48 94H0V47L48 0H96Z" />
-                </svg>
+               
 
-                Clipan Finance Indonesia
+               PT Clipan Finance Indonesia
               </a>
             </div>
             <!-- logo - end -->
 
             <p class="mb-6 sm:pr-8">
-              Filler text is dummy text which has no meaning however looks very
-              similar to real text
+             Perusahaan pembiayaan untuk mobil baru, mobil bekas, alat berat, dan multiguna.
             </p>
 
             <!-- social - start -->
@@ -153,8 +142,8 @@
                 class="w-6 h-6 mr-2"
               />
             </div>
-            <h1 class="font-black">1500 333</h1>
-            <h1 class="font-semibold tracking-tighter mt-4">Telepon</h1>
+            <h3 class="font-black text-white text-lg">1500 333</h3>
+            <h4 class="font-semibold text-white tracking-tighter mt-4">Telepon</h4>
             <p class="mx-auto text-xs">Senin – Jumat, 08.30-16.00</p>
           </div>
           <!-- nav - end -->
@@ -164,8 +153,8 @@
             <div class="bg-black/10 p-3 rounded-lg w-12 h-12 mb-2">
               <Icon name="heroicons-outline:envelope" class="w-6 h-6 mr-2" />
             </div>
-            <h1 class="font-black">cs@clipan.co.id</h1>
-            <h1 class="font-semibold tracking-tighter mt-4">Email</h1>
+           <h3 class="font-black text-white text-lg lowercase">cs@clipan.co.id</h3>
+            <h4 class="font-semibold text-white tracking-tighter mt-4">Email</h4>
             <p class="mx-auto text-xs">Senin – Jumat, 08.30-16.00</p>
           </div>
           <!-- nav - end -->
@@ -175,8 +164,8 @@
             <div class="bg-black/10 p-3 rounded-lg w-12 h-12 mb-2">
               <Icon name="heroicons-outline:map-pin" class="w-6 h-6 mr-2" />
             </div>
-            <h1 class="font-black">Lihat Cabang</h1>
-            <h1 class="font-semibold tracking-tighter mt-4">Jam Layanan</h1>
+            <h3 class="font-black text-white text-lg lowercase">Lokasi</h3>
+            <h4 class="font-semibold text-white tracking-tighter mt-4">Jam Layanan Cabang</h4>
             <p class="mx-auto text-xs">Senin – Jumat, 08.30-16.00</p>
           </div>
         </div>

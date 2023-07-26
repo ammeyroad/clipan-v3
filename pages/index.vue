@@ -93,72 +93,7 @@
       </div>
     </section>
     <!-- sejarah singkat -->
-    <section>
-      <div class="max-w-screen-lg px-5 mx-auto space-y-12 mb-48">
-        <div class="pt-96 sm:text-center text-left">
-          <p class="font-semibold text-yellow-500 text-sm xl:text-xl"></p>
-          <span
-            class="
-              bg-yellow-400
-              text-black text-xs
-              font-medium
-              mr-2
-              px-2.5
-              py-1.5
-              rounded-xl
-            "
-            >Sejarah Singkat</span
-          >
-          <h3 class="text-blue-600 text-2xl pt-2 font-bold md:text-4xl">
-            Perusahaan Clipan
-          </h3>
-          <garis />
-
-          <p class="pr-8 sm:px-32">
-            Berawal dari marketplace lalu tumbuh menjadi platform yang
-            memberikan banyak kemudahan untuk berbisnis. Inilah kami, Buka,
-            perusahaan yang terus berevolusi dan berinovasi untuk kepentingan
-            bersama.
-          </p>
-        </div>
-
-        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
-          <div
-            v-for="n in 4"
-            class="
-              relative
-              rounded-xl
-              border
-              bg-white
-              p-5
-              shadow-[0_5px_0_0_#10b981]
-              transition-shadow
-              hover:shadow-[0_16px_24px_-8px_rgba(16,185,129,.3)]
-            "
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="24"
-              height="24"
-              class="absolute right-3 top-2 h-16 w-16 fill-blue-100"
-            >
-              <path fill="none" d="M0 0h24v24H0z"></path>
-              <path
-                d="M22 6h-7a6 6 0 1 0 0 12h7v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2zm-7 2h8v8h-8a4 4 0 1 1 0-8zm0 3v2h3v-2h-3z"
-              ></path>
-            </svg>
-
-            <p class="font-bold text-sm text-yellow-500">Kredit</p>
-            <h3 class="mb-4 font-bold text-xl">Mobil Baru</h3>
-            <p class="">
-              Once you've set up your wallet of choice, connect it to OpenSeaby
-              clicking the NFT Marketplacein the top right corner.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+   <SejarahSingkat />
 
     <!-- Simulasi -->
     <section class="bg-gradient-to-br from-blue-500 to-blue-600 py-32">

@@ -38,11 +38,12 @@
                   mb-6
                   font-sans
                   text-2xl
-                  font-extrabold
                   leading-none
                   text-white text-center
                   sm:text-left sm:text-5xl sm:leading-none
                   uppercase
+                  drop-shadow-lg
+                  drop-shadow-blue
                 "
               >
                 Pengajuannya gampang, bunganya buat senang
@@ -55,18 +56,7 @@
                 <button
                   type="button"
                   class="
-                    w-full
-                    sm:w-max
-                    text-blue-600
-                    font-bold
-                    bg-white
-                    hover:bg-gray-200
-                    focus:ring-4 focus:ring-blue-300
-                    rounded-lg
-                    text-sm
-                    uppercase
-                    py-3.5
-                    px-4
+                   btn-w
                   "
                 >
                   Selengkapnya

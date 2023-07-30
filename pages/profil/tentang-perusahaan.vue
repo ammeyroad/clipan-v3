@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- breadchum -->
-    <section class="p-2">
+    <section class="px-2">
       <div
         class="
           p-2
@@ -54,20 +54,12 @@
       </div>
     </section>
     <!-- menu -->
-    <section class="flex w-full md:mx-auto md:max-w-screen-xl overflow-x-auto">
-      <div class="flex sm:mx-auto py-4">
-        <button class="btn-w ml-2 text-center sm:w-max mx-auto">
-          Selengkapnya
+    <section class="flex w-full my-1   sticky top-14 sm:top-16 z-10 md:mx-auto md:max-w-screen-xl overflow-x-auto bg-blue-50 border-b-2 border-blue-600 p-2 sm:pt-4">
+      <div class="flex sm:mx-auto">
+        <button v-for="sub in submenus" class="bg-transparent ring-1 ring-blue-600 py-2 rounded-2xl px-4 mr-3 mb-0 text-sm hover:bg-blue-600 hover:text-white duration-300 text-center mx-auto">
+         <p class="w-max "> {{ sub.nama }}</p>
         </button>
-        <button class="btn-w ml-2 text-center sm:w-max mx-auto">
-          Selengkapnya
-        </button>
-        <button class="btn-w ml-2 text-center sm:w-max mx-auto">
-          Selengkapnya
-        </button>
-        <button class="btn-w ml-2 text-center sm:w-max mx-auto">
-          Selengkapnya
-        </button>
+       
       </div>
     </section>
 
@@ -121,6 +113,7 @@
         >
           <div class="flex space-x-4 ">
             <div
+           v-for="step in steps"
               class="
                 w-52
                 sm:w-1/4
@@ -131,67 +124,15 @@
               "
             >
               <div class="flex justify-between border-b items-bottom">
-                <h3>15 Jan</h3>
-                <p>1990</p>
+                <h4>{{ step.tanggal }}</h4>
+                <p>{{ step.tahun}}</p>
               </div>
-              <p class="mt-4">
-                Berdiri dengan nama PT Clipan Leasing Corporation
+              <p class="mt-4 text-sm font-semibold">
+                {{ step.konten }}
               </p>
             </div>
-           <div
-              class="
-                w-52
-                sm:w-1/4
-                bg-white
-                p-4
-                rounded-lg
-                hover:shadow-lg hover:shadow-blue-600
-              "
-            >
-              <div class="flex justify-between border-b items-bottom">
-                <h3>15 Jan</h3>
-                <p>1990</p>
-              </div>
-              <p class="mt-4">
-                Perubahan nama menjadi PT Clipan Finance Indonesia
-              </p>
-            </div>
-             <div
-              class="
-                w-52
-                sm:w-1/4
-                bg-white
-                p-4
-                rounded-lg
-                hover:shadow-lg hover:shadow-blue-600
-              "
-            >
-              <div class="flex justify-between border-b items-bottom">
-                <h3>15 Jan</h3>
-                <p>1990</p>
-              </div>
-              <p class="mt-4">
-               Resmi melakukan penawaran saham perdana di BEJ
-              </p>
-            </div>
-             <div
-              class="
-                w-52
-                sm:w-1/4
-                bg-white
-                p-4
-                rounded-lg
-                hover:shadow-lg hover:shadow-blue-600
-              "
-            >
-              <div class="flex justify-between border-b items-bottom">
-                <h4>15 Jan</h4>
-                <p>1990</p>
-              </div>
-              <p class="mt-4">
-               Berganti nama menjadi PT Clipan Finance Indonesia Tbk
-              </p>
-            </div>
+           
+        
           </div>
         </div>
         <div class="justify-between lg:flex lg:space-x-10 pr-4">
@@ -225,3 +166,47 @@
     </section>
   </div>
 </template>
+
+<script setup>
+const submenus = [
+  {
+    nama: 'Sejarah Clipan',
+    link: '#sejarah',
+  },
+   {
+    nama: 'Visi Misi & Budaya',
+    link: '#visi',
+  },
+   {
+    nama: 'Profil Manajemen',
+    link: '#profil',
+  },
+   {
+    nama: 'Penghargaan',
+    link: '#penghargaan',
+  },
+ 
+]
+const steps = [
+  {
+    tanggal: '15 Januari',
+    tahun: '1982',
+    konten: 'Berdiri dengan nama PT Clipan Leasing Corporation',
+  },
+  {
+    tanggal: '17 Mei',
+    tahun: '1990',
+    konten: 'Perubahan nama menjadi PT Clipan Finance Indonesia',
+  },
+  {
+    tanggal: '27 Agustus',
+    tahun: '1990',
+    konten: 'Resmi melakukan penawaran saham perdana di BEJ',
+  },
+{
+    tanggal: '30 Agustus',
+    tahun: '1990',
+    konten: 'Berganti nama menjadi PT Clipan Finance Indonesia Tbk',
+  },
+]
+</script>

@@ -1,19 +1,19 @@
 <template>
   <div class="grid content-center z-20 sm:inset-0 mx-auto sm:top-0 left-0 w-max">
-    <button v-for="menu in nav" type="button" class="bg-gray-100 hover:bg-blue-400 font-medium rounded-xl text-sm p-1.5 text-center inline-flex items-center text-blue-400 hover:text-white group">
+    <button v-for="menu in nav" type="button" class="bg-gray-100 hover:bg-blue-400 font-medium rounded-xl text-sm p-1.5 text-center inline-flex items-center text-blue-500 hover:text-white group">
       <div class=" w-max mx-auto">
         <Icon name="solar:call-chat-rounded-bold-duotone" class="w-8 h-8" />
       </div>
       <div class="hidden z-50 group-hover:grid h-max fixed top-14 sm:pt-8 max-w-screen-xl inset-0 w-full p-2 sm:px-0 mx-auto place-content-end">
         <div class=" grid place-content-end ">
           <div class="text-left p-2 bg-white rounded-lg sm:shadow-xl ">
-            <nuxtLink v-for="sub in menu.submenu" class="flex gap-2 text-gray-700 hover:bg-gray-100 hover:text-blue-400 rounded-lg p-2 items-center" :href="'' + sub.to">
+            <nuxtLink v-for="sub in menu.submenu" class="flex gap-2 text-gray-700 hover:bg-gray-100 hover:text-blue-600 rounded-lg p-2 items-center" :href="'' + sub.to">
               <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg md:h-10 md:w-10 md:rounded-xl">
                 <Icon :name="sub.iconmenu" class=" w-8 h-8" />
               </div>
-              <h3 class=" font-semibold capitalize ">
+              <p class="text-sm font-semibold capitalize ">
                 {{ sub.Juduls }}
-              </h3>
+              </p>
             </nuxtLink>
           </div>
         </div>

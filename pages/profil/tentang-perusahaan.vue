@@ -56,9 +56,9 @@
     <!-- menu -->
     <section class="flex w-full my-1   sticky top-14 sm:top-16 z-10 md:mx-auto md:max-w-screen-xl overflow-x-auto bg-blue-50 border-b-2 border-blue-600 p-2 sm:pt-4">
       <div class="flex sm:mx-auto">
-        <button v-for="sub in submenus" class="bg-transparent ring-1 ring-blue-600 py-2 rounded-2xl px-4 mr-3 mb-0 text-sm hover:bg-blue-600 hover:text-white duration-300 text-center mx-auto">
+         <nuxt-link to="#section1" v-for="sub in submenus" class="bg-transparent ring-1 ring-blue-600 py-2 rounded-2xl px-4 mr-3 mb-0 text-sm hover:bg-blue-600 hover:text-white duration-300 text-center mx-auto">
          <p class="w-max "> {{ sub.nama }}</p>
-        </button>
+        </nuxt-link>
        
       </div>
     </section>
@@ -135,7 +135,7 @@
         
           </div>
         </div>
-        <div class="justify-between lg:flex lg:space-x-10 pr-4">
+        <div id="section1" class="justify-between lg:flex lg:space-x-10 pr-4">
           <div class="sm:w-3/5">
             <p class="mb-12">
               Dalam rangka memperkuat posisi Perseroan di industri pembiayaan

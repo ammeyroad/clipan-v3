@@ -1,6 +1,6 @@
 <template>
   <main class="">
-   
+   <LayoutMenu />
     <slot />
       <MenuBawah />
     <LayoutFooter />

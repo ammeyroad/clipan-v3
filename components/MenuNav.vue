@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-4 h-18 sm:h-16 content-center z-20 sm:mt-2 bg-white sm:inset-0 sm:max-w-md mx-auto fixed sm:top-0 bottom-0 left-0 w-full">
+  <div class="hidden sm:grid grid-cols-4 h-18 sm:h-16 content-center z-20 sm:mt-4 bg-white sm:inset-0 sm:max-w-md mx-auto fixed sm:top-0 bottom-0 left-0 w-full">
     <button v-for="menu in nav" type="button" class=" items-center p-4 duration-300 gap-2 items-center text-gray-600 justify-center hover:text-blue-600 rounded-lg group">
       <div class=" w-max mx-auto">
         <Icon :name="menu.icon" class="w-6 h-6" />
@@ -40,7 +40,8 @@
 </template>
 
 <script setup>
-const nav = [
+const nav = 
+[
   {
     judul: 'Profil',
     icon: 'line-md:home-md-twotone',

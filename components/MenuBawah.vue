@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-4 w-full fixed bottom-0 bg-white rounded-t-xl">
+  <div class="sm:hidden grid grid-cols-4 w-full fixed bottom-0 bg-white rounded-t-xl">
     <div v-for="team in teams" :key="team.id" class="flex-col text-center py-2">
       <button class="text-sm hover:text-blue-600" @click="openModal(team.judul)">
        <div class=" w-max mx-auto">
@@ -11,10 +11,10 @@
       </button>
     </div>
 
-    <transition name="modal">
-      <div v-if="isModalOpen" class="modal-overlay">
-        <div class="modal-container">
-          <div class="modal-content grid grid-cols-2">
+    <transition name="modal ">
+      <div v-if="isModalOpen" class="modal-overlay p-2 ">
+        <div class="bg-white p-2 rounded-xl">
+          <div class="grid grid-cols-2 gap-2">
             <button class="btn-b w-max col-span-2" @click="closeModal">
               tutup
             </button>
@@ -556,7 +556,7 @@ const closeModalOutside = (event) => {
 
 <style>
 .card {
-  @apply py-2 px-4 mb-2 border rounded;
+  @apply py-2 px-4 mb-2 ;
 }
 
 .username-btn {
@@ -564,11 +564,11 @@ const closeModalOutside = (event) => {
 }
 
 .modal-overlay {
-  @apply fixed bottom-16  w-full  flex;
+  @apply fixed bottom-14  bg-transparent  w-full  flex;
 }
 
 .modal-container {
-  @apply rounded;
+  @apply rounded shadow-xl;
 }
 
 .modal-content {

@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     'nuxt-headlessui',
     'nuxt-vitest',
+    'nuxt-swiper',
   ],
   experimental: {
     reactivityTransform: true

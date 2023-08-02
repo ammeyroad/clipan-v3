@@ -1,6 +1,6 @@
 <template>
   <div class="sm:hidden grid grid-cols-4 w-full fixed bottom-0 bg-white rounded-t-xl">
-    <div v-for="team in teams" :key="team.id" class="flex-col text-center py-2">
+    <div v-for="team in teams" :key="team.id" class="flex-col text-center py-3">
       <button class="text-sm hover:text-blue-600" @click="openModal(team.judul)">
        <div class=" w-max mx-auto">
         <Icon :name="team.icon" class="w-6 h-6" />
@@ -12,12 +12,12 @@
     </div>
 
     <transition name="modal ">
-      <div v-if="isModalOpen" class="modal-overlay p-2 ">
+      <div v-if="isModalOpen" class="modal-overlay ">
         <div class="bg-white p-2 rounded-xl">
           <div class="grid grid-cols-2 gap-2">
-            <button class="btn-b w-max col-span-2" @click="closeModal">
-              tutup
-            </button>
+           <button class="bg-gray-300 col-span-2 w-max hover:bg-gray-400 text-gray-800 font-medium py-2 px-4 rounded" @click="closeModal">
+            x
+          </button>
             <nuxtLink
               v-for="sub in selectedUser.submenu"
               class="

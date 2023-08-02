@@ -4,11 +4,11 @@
       <Icon name="icon-park-twotone:search" class="w-8 h-8" />
     </button>
     <div v-if="isModalOpen" class="fixed modal-overlay inset-0 flex items-center justify-center z-50">
-      <div class="bg-gray-100 w-96 rounded-lg shadow-md p-6">
+      <div class="bg-gray-100 w-full h-full rounded-lg shadow-md p-6">
         <div class="flex items-center justify-between">
-          <h2 class="font-semibold ">
+          <h4 class="font-black ">
             Kamu Cari Apa?
-          </h2>
+          </h4>
           <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-medium py-2 px-4 rounded" @click="closeModal">
             x
           </button>

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <input v-model="searchTerm" type="search" class="block w-full p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="Search">
-    <ul v-if="filteredList.length > 0" class="h-48 absolute overflow-y-auto mt-2 p-2 bg-white rounded-xl">
+    <input v-model="searchTerm" type="search" class="block w-full p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="sisa angsuran">
+    <ul v-if="filteredList.length > 0" class="h-96 absolute overflow-y-auto mt-2 p-2 bg-white rounded-xl">
       <li v-for="item in filteredList" :key="item.judul" class="w-80 bg-white py-4 px-4 border-b border-1 border-gray-300 text-gray-500 hover:text-blue-700 shadow-none ">
         <router-link :to="item.to" class="flex justify-between  items-center group">
           <p class="font-semibold grid">

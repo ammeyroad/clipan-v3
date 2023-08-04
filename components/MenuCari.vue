@@ -1,7 +1,7 @@
 <template>
   <div>
-    <button type="button" class="bg-gray-100 hover:bg-blue-400 font-medium rounded-xl text-sm p-1.5 text-center inline-flex items-center text-blue-400 hover:text-white" @click="openModal">
-      <Icon name="icon-park-twotone:search" class="w-8 h-8" />
+    <button type="button" class="bg-gray-100 hover:bg-blue-600 font-medium rounded-xl text-sm p-1.5 text-center inline-flex items-center text-blue-600 hover:text-white" @click="openModal">
+      <Icon name="icon-park-twotone:search" class="w-8 h-8 p-1 " />
     </button>
     <div v-if="isModalOpen" class="fixed modal-overlay inset-0 flex items-center justify-center z-50">
       <div class="bg-gray-100 w-full h-full rounded-lg shadow-md p-6">

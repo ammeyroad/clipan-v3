@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:hidden grid grid-cols-4 w-full fixed bottom-0 bg-white rounded-t-xl">
+  <div class="sm:hidden grid grid-cols-4 w-full fixed bottom-0 bg-white rounded-t-xl z-50">
     <div v-for="team in teams" :key="team.id" class="flex-col text-center py-3">
       <button class="text-sm hover:text-blue-600" @click="openModal(team.judul)">
        <div class=" w-max mx-auto">
@@ -29,7 +29,9 @@
                 hover:bg-gray-100
                 rounded-lg
                 p-2
+                
               "
+              @click="closeModal"
               :href="'' + sub.to"
             >
               <div
@@ -55,35 +57,6 @@
                   {{ sub.deskripsi }}
                 </p>
 
-                <ul
-                  class="
-                    space-y-1
-                    hidden
-                    sm:flex
-                    flex-col
-                    text-gray-500 text-sm
-                  "
-                >
-                  <hr class="my-2" />
-                  <li
-                    v-for="daftar in sub.daftarmenu"
-                    :key="daftar.judul"
-                    class="
-                      text-sm
-                      sm:text-md
-                      hover:text-blue-600 hover:font-semibold
-                      capitalize
-                      items-center
-                      duration-150
-                    "
-                  >
-                    <Icon name="uil:angle-right" class="w-3 h-3 mr-1" />
-                    <span :class="daftar.anime">
-                      {{ daftar.judul }}
-                      <Icon :name="daftar.promo" class="w-3 h-3 mr-1"
-                    /></span>
-                  </li>
-                </ul>
               </div>
             </nuxtLink>
           </div>

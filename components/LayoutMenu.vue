@@ -16,7 +16,7 @@
         "
       >
         <a href="/" class="flex items-center">
-          <img src="/clipan finance logo.svg" class="h-8" />
+          <img src="/clipan-finance-logo.svg" class="h-8" />
         </a>
         <div class="flex md:order-2 gap-2 sticky top-0">
           <MenuCari />

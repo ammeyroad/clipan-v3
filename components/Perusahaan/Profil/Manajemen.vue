@@ -2,44 +2,47 @@
   <section class="py-24">
     <div class="max-w-screen-lg mx-auto pl-4">
       <div class="sm:text-center text-left mb-10">
-        <div
+        <span
           class="
-            inline-flex
-            justify-between
-            items-center
-            py-1
-            px-1
-            text-sm text-gray-700
-            bg-white
+            bg-yellow-400
+            text-black text-xs
+            font-medium
+            mr-2
+            px-2.5
+            py-1.5
             rounded-full
           "
-          role="alert"
+          >Manajemen Clipan</span
         >
-          <span
-            class="
-              text-xs
-              bg-yellow-400
-              rounded-full
-              text-black
-              font-semibold
-              px-4
-              py-1.5
-              mr-3
-            "
-            >Manajemen</span
-          >
-          <span class="text-sm font-medium mr-2">level Atas</span>
-        </div>
 
-        <h3 class="">jajaran direksi dan komisaris</h3>
+        <h1 class="hed3 mt-4">jajaran direksi dan komisaris</h1>
         <garis />
 
-        <p class="pr-8 sm:px-32 pb-5">
-          Berawal dari marketplace lalu tumbuh menjadi platform yang memberikan
-          banyak kemudahan untuk berbisnis. Inilah kami,
-        </p>
+        <h3 class="pr-8 sm:px-32 pb-5 hed4">
+          Kinerja Clipan tidak lepas dari peranan jajaran Komisaris dan Direksi yang Dewan Komisaris dan Direksi berpengalaman, berprestasi, dan pakar di bidangnya.  
+        </h3>
       </div>
+ <div class="sm:text-center text-left mb-10">
+        <span
+          class="
+            bg-yellow-400
+            text-black text-xs
+            font-medium
+            mr-2
+            px-2.5
+            py-1.5
+            rounded-full
+          "
+          >Investor dan Korporasi</span
+        >
 
+        <h1 class="hed3 mt-4">Informasi RUPS dan Berita lainnya</h1>
+        <garis />
+
+        <h3 class="pr-8 sm:px-32 pb-5 hed4">
+          Informasi bagi investor, masyarakat pasar modal dan pemegang saham disajikan dengan transparan
+        </h3>
+      </div>
       <TabGroup>
         <TabList class="flex space-x-1 rounded-xl p-1 mr-4 sm:mr-0">
           <Tab

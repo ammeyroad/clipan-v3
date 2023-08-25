@@ -1,14 +1,15 @@
 <template>
   <div class="hidden sm:grid grid-cols-4 h-18 sm:h-16 content-center z-20 sm:mt-4 bg-white sm:inset-0 sm:max-w-md mx-auto fixed sm:top-0 bottom-0 left-0 w-full">
     <button v-for="menu in nav" type="button" class=" items-center p-4 duration-300 gap-2 items-center text-gray-600 justify-center hover:text-blue-600 rounded-lg group">
-      <div class=" w-max mx-auto">
+      <div class=" w-max mx-auto z-50">
         <Icon :name="menu.icon" class="w-6 h-6" />
         <p class="font-bold  uppercase text-xs sm:text-md">
           {{ menu.judul }}
         </p>
       </div>
-      <div class="hidden z-50 group-hover:grid py-10 sm:py-7 h-max -mt-44 sm:-mt-5 inset-0 sm:fixed text-left sm:top-20 absolute -top-72 mx-auto w-full max-w-screen-xl p-2 sm:px-0">
-        <div class="bg-white rounded-lg sm:shadow-xl ">
+      <div class="hidden z-50 group-hover:grid py-10 sm:py-7 h-max -mt-44 sm:-mt-5 inset-0 sm:fixed text-left sm:top-20 absolute -top-72 mx-auto w-full max-w-screen-xl p-2 sm:px-0 ">
+        <div class="bg-white rounded-lg sm:shadow-xl 
+           ">
           <div class="p-4 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 ">
             <nuxtLink v-for="sub in menu.submenu" class="flex flex-col md:flex-row h-48 sm:h-60 md:gap-4 hover:bg-gray-100 rounded-lg p-4" :href="'' + sub.to">
               <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg md:h-10 md:w-10 md:rounded-xl">

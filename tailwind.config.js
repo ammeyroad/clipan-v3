@@ -38,23 +38,13 @@ module.exports = {
         "5px 5px 10px rgba(108, 106, 213, 0.25), inset 2px 2px 6px #A78DF0, inset -5px -5px 10px #6336E4",
       "white-volume": "5px 5px 10px rgba(108, 106, 212, 0.25), inset 2px 2px 6px #EEF1F9, inset -5px -5px 10px #DFE3EF"
     },
-    fontSize: {
-      xs: ["0.75rem", { lineHeight: "normal" }],
-      "2xs": ["0.8125rem", { lineHeight: "normal" }],
-      sm: ["0.875rem", { lineHeight: "normal" }],
-      base: ["1rem", { lineHeight: "normal" }],
-      lg: ["1.25rem", { lineHeight: "normal" }],
-      xl: ["1.5rem", { lineHeight: "normal" }],
-      "2xl": ["1.75rem", { lineHeight: "normal" }],
-      "3xl": ["2rem", { lineHeight: "normal" }],
-      "4xl": ["2.25rem", { lineHeight: "normal" }],
-      "5xl": ["2.5rem", { lineHeight: "normal" }],
-      "6xl": ["3.5rem", { lineHeight: "normal" }],
-      "7xl": ["4.25rem", { lineHeight: "normal" }]
-    },
+
     extend: {
       borderRadius: {
         "2lg": "0.625rem"
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
       },
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',

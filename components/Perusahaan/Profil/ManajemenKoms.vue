@@ -232,14 +232,14 @@ const direksi = [
     nama: 'Harjanto Tjitohardjojo',
     jabatan: 'Direktur Utama',
     foto: 'https://clipan.co.id/wp-content/uploads/2021/08/Har.png',
-    riwayat: 'Operation Director Tunas Toyota (2004-2006)<br>• Vice President di Tunas Toyota (2006-2010)<br>• Marketing and Sales Director di PT Mandiri Tunas Finance (2010-2021).',
+    riwayat: 'Operation Director Tunas Toyota (2004-2006) <br>• Vice President di Tunas Toyota (2006-2010) <br>• Marketing and Sales Director di PT Mandiri Tunas Finance (2010-2021).',
     pendidikan: 'Sarjana Ekonomi dari Fakultas Ekonomi, Jurusan Manajemen, Universitas Krida Wacana Jakarta (1991)',
   },
   {
     nama: 'Engelbert Rorong, Jr.',
     jabatan: 'Direktur',
     foto: 'https://clipan.co.id/wp-content/uploads/2021/08/Har.png',
-    riwayat: '• Senior Manager di Perseroan (2006-2009)<br> • Executive Vice President di Perseroan (2009-2013)<br>• Menjabat sebagai Direktur Perseroan sejak tahun 2013.',
+    riwayat: '• Senior Manager di Perseroan (2006-2009)<br>• Executive Vice President di Perseroan (2009-2013)<br>• Menjabat sebagai Direktur Perseroan sejak tahun 2013.',
     pendidikan: 'Beliau merupakan lulusan dari STIE PERBANAS, Jakarta (1992)',
   },
   {

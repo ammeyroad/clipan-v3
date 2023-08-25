@@ -19,10 +19,12 @@
         <garis />
 
         <h3 class="pr-8 sm:px-32 pb-5 hed4">
-          Kinerja Clipan tidak lepas dari peranan jajaran Komisaris dan Direksi yang Dewan Komisaris dan Direksi berpengalaman, berprestasi, dan pakar di bidangnya.  
+          Kinerja Clipan tidak lepas dari peranan jajaran Komisaris dan Direksi
+          yang Dewan Komisaris dan Direksi berpengalaman, berprestasi, dan pakar
+          di bidangnya.
         </h3>
       </div>
- <div class="sm:text-center text-left mb-10">
+      <div class="sm:text-center text-left mb-10">
         <span
           class="
             bg-yellow-400
@@ -40,7 +42,8 @@
         <garis />
 
         <h3 class="pr-8 sm:px-32 pb-5 hed4">
-          Informasi bagi investor, masyarakat pasar modal dan pemegang saham disajikan dengan transparan
+          Informasi bagi investor, masyarakat pasar modal dan pemegang saham
+          disajikan dengan transparan
         </h3>
       </div>
       <TabGroup>
@@ -77,9 +80,7 @@
           >
         </TabList>
         <TabPanels>
-          <TabPanel>
-            <PerusahaanProfilManajemenKoms /></TabPanel
-          >
+          <TabPanel> <PerusahaanProfilManajemenKoms /></TabPanel>
           <TabPanel><PerusahaanProfilManajemenDir />asas</TabPanel>
           <TabPanel><PerusahaanProfilManajemenEvp /></TabPanel>
         </TabPanels>

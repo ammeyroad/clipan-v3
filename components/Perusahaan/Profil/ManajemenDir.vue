@@ -44,12 +44,13 @@
             transition
             duration-300
             ease-in-out
+            duration-200
             group-hover:-translate-y-0 group-hover:bg-blue-600/80
           "
         >
           <div class="">
             <h4 class="text-lg font-semibold dark:text-gray-700 text-white">
-              {{ item.nama }}
+              {{ item.nama }}sdasdsa
             </h4>
             <span class="block text-sm text-white">{{ item.jabatan }}</span>
           </div>

@@ -204,7 +204,6 @@
     <div class="flex py-12 w-full md:mx-auto md:max-w-screen-xl overflow-x-auto">
      <div class="flex space-x-4 sm:justify-center">
       <div
-        v-for="item in rups"
         class="
           group
           relative
@@ -217,7 +216,11 @@
           duration-200
         "
       >
-<div class="bg-white p-4">asdsad</div>
+<div class="bg-white p-4">
+<div class="flex">
+<p>TAHUN 2023</p>
+<div class="flex"><p>TAHUN 2023</p> <p>TAHUN 2023</p></div>
+</div></div>
       </div>
     </div>
   </div>

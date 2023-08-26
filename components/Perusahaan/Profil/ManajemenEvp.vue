@@ -1,13 +1,11 @@
 <template>
   <div class="flex py-12 w-full md:mx-auto md:max-w-screen-xl overflow-x-auto">
     <div class="flex sm:flex-wrap">
-      <div v-for="daftar in rups" class="px-4   w-72
-            sm:w-1/3">
+      <div v-for="daftar in rups" class="px-4 w-72 sm:w-1/3">
         <div
           class="
             rounded-xl
             hover:shadow-lg
-          
             bg-white
             hover:bg-gray-50
             rounded-xl

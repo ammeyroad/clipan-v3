@@ -75,7 +75,10 @@ h4{
   line-height: 1.75rem
 }
 
-
+h5{
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 1px;
+}
 .fontsliders {
   font-family: 'Dosis', sans-serif;
   letter-spacing: 1px;
@@ -234,7 +237,20 @@ h4{
   .bg-g {
     @apply bg-gradient-to-br from-cyan-500 via-cyan-600 to-cyan-700;
   }
+
+  .tabdireksi { @apply bottom-0 h-full mt-auto px-2 py-2 bg-amber-400/80 translate-y-72 sm:translate-y-64 transition text-black duration-300 group-hover:-translate-y-0 group-hover:bg-amber-400;
+  }
+
+  .tabkomisaris { @apply bottom-0 h-full mt-auto px-2 py-2 bg-blue-600/80 translate-y-72 sm:translate-y-64 transition text-white duration-300 group-hover:-translate-y-0 group-hover:bg-blue-600;
+  }
   
+
+  .tabevp { @apply bottom-0 h-full mt-auto px-2 py-2 bg-gray-100/80 translate-y-72 sm:translate-y-64 transition duration-300 group-hover:-translate-y-0 group-hover:bg-gray-100;
+  }
+  
+  .tabsec { @apply bottom-0 h-full mt-auto px-2 py-2 bg-red-600/80 translate-y-72 sm:translate-y-64 transition text-white duration-300 group-hover:-translate-y-0 group-hover:bg-red-600;
+  }
+
   .hed1 {
     @apply text-5xl sm:text-6xl;
   }

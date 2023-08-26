@@ -16,7 +16,7 @@
       >
         <img
           class="
-     mx-auto
+            mx-auto
             h-[360px]
             sm:h-[330px]
             w-full

@@ -611,7 +611,7 @@ const categories = ref({
       warna: 'tabkomisaris',
       nama: 'Roosniati Salihin',
       jabatan: 'Komisaris utama',
-      foto: 'https://clipan.co.id/wp-content/uploads/2021/08/Har.png',
+      foto: 'https://clipan.id/aset/uploads/Manajemen-Roosmiati.jpg',
       riwayat:
         'Memulai kariernya pada Divisi Internasional dan sebagai Executive Vice President di PT Bank Pan Indonesia Tbk (1991) sebelumnya Presiden Komisaris di PT Westpac Panin Bank (1991-1993)',
       pendidikan:
@@ -620,19 +620,19 @@ const categories = ref({
     {
       warna: 'tabkomisaris',
       id: 2,
-      nama: 'Bhindawati Gunawan *',
+      nama: 'Bhindawati Gunawan',
       jabatan: 'Komisaris',
-      foto: 'https://clipan.co.id/wp-content/uploads/2021/08/Har.png',
+      foto: 'https://clipan.id/aset/uploads/Manajemen-Bhinda.jpg',
       riwayat:
-        '• Wakil Komisaris Utama PT Panin Financial Tbk (d/h PT Panin Life Tbk)(1991-2001) <br>• Menjabat sebagai Komisaris Utama Perusahaan (1991-2020) <br> dan • Menjabat sebagai Komisaris Perseroan (2020-sekarang) ',
-      pendidikan: 'Beliau merupakan lulusan Akademi Bisnis. <br> <br> <span class="text-amber-500">*dalam proses OJK</span> ',
+        '• Wakil Komisaris Utama PT Panin Financial Tbk (d/h PT Panin Life Tbk)(1991-2001) <br>• Menjabat sebagai Komisaris Utama Perusahaan (1991-2020) <br> dan • Menjabat sebagai Komisaris Perseroan (2020-sekarang)',
+      pendidikan: 'Beliau merupakan lulusan Akademi Bisnis.',
     },
     {
       warna: 'tabkomisaris',
       id: 3,
       nama: 'Lukman Abdullah',
       jabatan: 'Komisaris Independen',
-      foto: 'https://clipan.co.id/wp-content/uploads/2021/08/Har.png',
+      foto: 'https://clipan.id/aset/uploads/Manajemen-Lukman.jpg',
       riwayat:
         '• Auditor di KAP Capelle Tuanakotta & Co. (1980-1990) <br> • Partner di KAP Drs. Hans Tuanakotta & Mustofa (1991-2002) <br> • Anggota Komite Audit di PT Asuransi Ramayana Tbk (2004-2008).',
       pendidikan:
@@ -645,7 +645,7 @@ const categories = ref({
       id: 1,
       nama: 'Harjanto Tjitohardjojo',
       jabatan: 'Direktur Utama',
-      foto: 'https://clipan.co.id/wp-content/uploads/2021/08/Har.png',
+      foto: 'https://clipan.id/aset/uploads/Manajemen-Hartjanto.jpg',
       riwayat:
         'Operation Director Tunas Toyota (2004-2006) <br> • Vice President di Tunas Toyota (2006-2010) <br> • Marketing and Sales Director di PT Mandiri Tunas Finance (2010-2021).',
       pendidikan:
@@ -656,7 +656,7 @@ const categories = ref({
       id: 2,
       nama: 'Jahja Anwar',
       jabatan: 'Direktur',
-      foto: 'https://clipan.co.id/wp-content/uploads/2021/08/Har.png',
+      foto: 'https://clipan.id/aset/uploads/Manajemen-Jahja.jpg',
       riwayat:
         'Country Manager di Wells Fargo Bank (2004-2012) <br> • Executive Vice President di Perseroan (2012-2013) <br> • Menjabat sebagai Direktur Perseroan sejak tahun 2013.',
       pendidikan:
@@ -667,7 +667,7 @@ const categories = ref({
       id: 3,
       nama: 'Engelbert Rorong, Jr',
       jabatan: 'Direktur',
-      foto: 'https://clipan.co.id/wp-content/uploads/2021/08/Har.png',
+      foto: 'https://clipan.id/aset/uploads/Manajemen-Engelbert.jpg',
       riwayat:
         '• Senior Manager di Perseroan (2006-2009)<br> • Executive Vice President di Perseroan (2009-2013)<br> • Menjabat sebagai Direktur Perseroan sejak tahun 2013.',
       pendidikan: 'Beliau merupakan lulusan dari STIE PERBANAS, Jakarta (1992)',
@@ -677,7 +677,7 @@ const categories = ref({
       id: 4,
       nama: 'Yimmy Weddianto',
       jabatan: 'Direktur',
-      foto: 'https://clipan.co.id/wp-content/uploads/2021/08/Har.png',
+      foto: 'https://clipan.id/aset/uploads/Manajemen-Yimmy.jpg',
       riwayat:
         'Area Manager di PT Nissan Motor Distributor Indonesia (2002-2005) <br> • Senior Vice President di PT Adira Dinamika Multifinance Tbk (2005-2016) <br> • Diangkat sebagai Direktur Perseroan sejak 2016.',
       pendidikan:
@@ -686,33 +686,33 @@ const categories = ref({
   ],
   EXECUTIVE: [
     {
-      warna: 'tabevp',
+       warna: 'tabevp',
       id: 1,
       nama: 'Donny Tri Wardono',
       jabatan: 'Executive Vice President',
-      foto: 'https://clipan.co.id/wp-content/uploads/2021/08/Har.png',
+      foto: 'https://clipan.id/aset/uploads/Manajemen-Donny.jpg',
       riwayat:
         'Berbekal pengalaman lebih dari 27 tahun di bidang Sumber Daya Manusia (SDM), Beliau juga pernah menjabat posisi General Manager dan Senior General Manager di sejumlah perusahaan pembiayaan.',
       pendidikan:
         'Beliau meraih gelar Sarjana (S1) dari Universitas Diponegoro, Semarang pada tahun 1985 dan gelar Magister (S2) dari Universitas Gadjah Mada, Jakarta pada tahun 2003.',
     },
     {
-      warna: 'tabevp',
+       warna: 'tabevp',
       id: 2,
       nama: 'Halim Ngatidjan',
       jabatan: 'Executive Vice President',
-      foto: 'https://clipan.co.id/wp-content/uploads/2021/08/Har.png',
+      foto: 'https://clipan.id/aset/uploads/Manajemen-Halim.jpg',
       riwayat:
         'Beliau memiliki pengalaman selama lebih dari 27 tahun di bidang keuangan, akuntansi, perpajakan, dan budgeting.',
       pendidikan:
         'Beliau meraih gelar Master of Business Administration dari Monash University, Melbourne pada tahun 1996.',
     },
     {
-      warna: 'tabsec',
+       warna: 'tabsec',
       id: 3,
       nama: 'Jahja Anwar',
       jabatan: 'Sekertaris Perusahaan',
-      foto: 'https://clipan.co.id/wp-content/uploads/2021/08/Har.png',
+      foto: 'https://clipan.id/aset/uploads/Manajemen-Jahja.jpg',
       riwayat:
         'Country Manager di Wells Fargo Bank (2004-2012);• Executive Vice President di Perseroan (2012-2013) <br>• Menjabat sebagai Direktur Perseroan sejak tahun 2013.',
       pendidikan:

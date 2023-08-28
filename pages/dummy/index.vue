@@ -154,26 +154,28 @@
                     overflow-x-auto
                   "
                 >
-                  <div class="flex space-x-4 sm:space-x-6 sm:justify-center">
+                  <div class="flex space-x-4 sm:justify-center">
                     <div
                       v-for="post in posts"
                       :key="post.id"
                       class="
+                      mb-8
                         group
                         relative
                         rounded-xl
-                        hover:shadow-xl
+                        shadow-lg
                         w-64
                         sm:w-1/4
                         space-y-6
                         overflow-hidden
+                       
                       "
                     >
                       <img
                         class="
                           mx-auto
                           h-[360px]
-                          sm:h-[330px]
+                          sm:h-full
                           w-full
                           grayscale-0
                           object-cover object-top
@@ -185,7 +187,7 @@
                       />
                       <div :class="[post.warna, 'absolute ease-in-out']">
                         <div class="text-center">
-                          <div class="rounded-lg">
+                          <div class="rounded-lg my-1">
                             <h5 class="text-xl font-bold">
                               {{ post.nama }}
                             </h5>
@@ -639,7 +641,7 @@ const categories = ref({
         '• Sarjana Ekonomi dari Fakultas Ekonomi, Universitas Indonesia, Jakarta (1981)',
     },
   ],
-  DIREKSI: [
+ DIREKSI: [
     {
       warna: 'tabdireksi',
       id: 1,
@@ -667,7 +669,7 @@ const categories = ref({
       id: 3,
       nama: 'Engelbert Rorong, Jr',
       jabatan: 'Direktur',
-      foto: 'https://clipan.id/aset/uploads/Manajemen-Engelbert.jpg',
+      foto: 'https://clipan.id/aset/uploads/Manajemen-engelbert.jpg',
       riwayat:
         '• Senior Manager di Perseroan (2006-2009)<br> • Executive Vice President di Perseroan (2009-2013)<br> • Menjabat sebagai Direktur Perseroan sejak tahun 2013.',
       pendidikan: 'Beliau merupakan lulusan dari STIE PERBANAS, Jakarta (1992)',

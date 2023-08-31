@@ -97,7 +97,7 @@
             "
             >Manajemen Clipan</span
           >
-          <h1 class="hed3 mt-4">jajaran direksi dan komisaris</h1>
+          <h1 class="hed3 mt-4">Dewan komisaris dan direksi</h1>
           <div class="mb-2">
             <span
               class="inline-block w-12 h-1.5 bg-blue-500 rounded-full"
@@ -111,7 +111,7 @@
           </div>
           <h3 class="pr-8 sm:px-32 hed4 normal-case">
             Kinerja Clipan tidak lepas dari peranan jajaran Komisaris dan
-            Direksi yang berpengalaman, berprestasi, dan pakar di bidangnya.
+            Direksi yang berpengalaman, berprestasi, dan ahli di bidangnya.
           </h3>
         </div>
         <div class="w-full mx-auto max-w-screen-lg sm:px-0">
@@ -212,6 +212,7 @@
             </TabPanels>
           </TabGroup>
         </div>
+        <p class="max-w-screen-md text-xs">*) Efektif setelah mendapat persetujuan OJK </p>
       </div>
     </section>
 
@@ -525,18 +526,18 @@ const categories = ref({
       jabatan: 'Komisaris utama',
       foto: 'https://clipan.id/aset/uploads/Manajemen-Roosmiati.jpg',
       riwayat:
-        'Memulai kariernya pada Divisi Internasional dan sebagai Executive Vice President di PT Bank Pan Indonesia Tbk (1991) sebelumnya Presiden Komisaris di PT Westpac Panin Bank (1991-1993)',
+        'Memulai karir pada Divisi Internasional dan sebagai EVP di Panin Bank, beliau telah memiliki pengalaman 30 tahun lebih di dalam industry perbankan dan IKNB.',
       pendidikan:
-        '• Lulusan Bahasa Jepang dari Kokkusai Gakkuyukai, Tokyo, Jepang (1965) <br> • Lulusan English Literature dari University of California, Los Angeles, Amerika Serikat (1968)',
+        'Beliau merupakan lulusan Bahasa Jepang, English Literature, dan Manajemen.',
     },
     {
       warna: 'tabkomisaris',
       id: 2,
-      nama: 'Bhindawati Gunawan',
+      nama: 'Bhindawati Gunawan *)',
       jabatan: 'Komisaris',
       foto: 'https://clipan.id/aset/uploads/Manajemen-Bhinda.jpg',
       riwayat:
-        '• Wakil Komisaris Utama PT Panin Financial Tbk (d/h PT Panin Life Tbk)(1991-2001) <br>• Menjabat sebagai Komisaris Utama Perusahaan (1991-2020) <br> dan • Menjabat sebagai Komisaris Perseroan (2020-sekarang)',
+        'Beliau telah berpartisipasi pada industri perbankan sejak tahun 1984. Saat ini beliau juga menjabat sebagai Wakil Presiden Direktur di PT Panin Financial Tbk dan Executive Management di PT Asuransi Multi Artha Guna.',
       pendidikan: 'Beliau merupakan lulusan Akademi Bisnis.',
     },
     {
@@ -546,9 +547,9 @@ const categories = ref({
       jabatan: 'Komisaris Independen',
       foto: 'https://clipan.id/aset/uploads/Manajemen-Lukman.jpg',
       riwayat:
-        '• Auditor di KAP Capelle Tuanakotta & Co. (1980-1990) <br> • Partner di KAP Drs. Hans Tuanakotta & Mustofa (1991-2002) <br> • Anggota Komite Audit di PT Asuransi Ramayana Tbk (2004-2008).',
+        'Beliau telah melakukan praktik sebagai auditor sejak 1990 dan telah berpengalaman menjadi Komite Audit di beberapa perusahaan.',
       pendidikan:
-        '• Sarjana Ekonomi dari Fakultas Ekonomi, Universitas Indonesia, Jakarta (1981)',
+        'Merupakan Sarjana Ekonomi dari Fakultas Ekonomi, Universitas Indonesia.',
     },
   ],
   DIREKSI: [
@@ -559,7 +560,7 @@ const categories = ref({
       jabatan: 'Direktur Utama',
       foto: 'https://clipan.id/aset/uploads/Manajemen-Hartjanto.jpg',
       riwayat:
-        'Operation Director Tunas Toyota (2004-2006) <br> • Vice President di Tunas Toyota (2006-2010) <br> • Marketing and Sales Director di PT Mandiri Tunas Finance (2010-2021).',
+        'Beliau bergabung dengan Clipan sejak 2021, sebelumnya beliau merupakan Marketing & Sales Director dan Operation Director di perusahaan pembiayaan ternama.',
       pendidikan:
         'Sarjana Ekonomi dari Fakultas Ekonomi, Jurusan Manajemen, Universitas Krida Wacana Jakarta (1991)',
     },
@@ -570,7 +571,7 @@ const categories = ref({
       jabatan: 'Direktur',
       foto: 'https://clipan.id/aset/uploads/Manajemen-Jahja.jpg',
       riwayat:
-        'Country Manager di Wells Fargo Bank (2004-2012) <br> • Executive Vice President di Perseroan (2012-2013) <br> • Menjabat sebagai Direktur Perseroan sejak tahun 2013.',
+        'Beliau pernah menjabat sebagai Country Manager di beberapa bank di Amerika Serikat dan telah bergabung dengan Clipan sejak 2012.',
       pendidikan:
         'Master of Business Adminstration (MBA) dari De Paul University Of Chicago, Amerika Serikat (1990).',
     },
@@ -581,7 +582,7 @@ const categories = ref({
       jabatan: 'Direktur',
       foto: 'https://clipan.id/aset/uploads/Manajemen-engelbert.jpg',
       riwayat:
-        '• Senior Manager di Perseroan (2006-2009)<br> • Executive Vice President di Perseroan (2009-2013)<br> • Menjabat sebagai Direktur Perseroan sejak tahun 2013.',
+        'Berpengalaman lebih dari 10 tahun sebagai Auditor, Beliau mulai bergabung dengan Clipan sebagai Senior Manager dan pada 2013 menjabat sebagai Direktur.',
       pendidikan: 'Beliau merupakan lulusan dari STIE PERBANAS, Jakarta (1992)',
     },
     {
@@ -591,9 +592,9 @@ const categories = ref({
       jabatan: 'Direktur',
       foto: 'https://clipan.id/aset/uploads/Manajemen-Yimmy.jpg',
       riwayat:
-        'Area Manager di PT Nissan Motor Distributor Indonesia (2002-2005) <br> • Senior Vice President di PT Adira Dinamika Multifinance Tbk (2005-2016) <br> • Diangkat sebagai Direktur Perseroan sejak 2016.',
+        'Memiliki pengalaman yang panjang di industri otomotif dan IKNB, beliau bergabung sebagai Direktur Clipan sejak 2016',
       pendidikan:
-        'Sarjana Teknik, Jurusan Teknik Industri dari Fakultas Teknik UniversitasTrisakti, Jakarta (2000).',
+        'Sarjana Teknik, Jurusan Teknik Industri dari Fakultas Teknik Universitas Trisakti, Jakarta (2000).',
     },
   ],
   EXECUTIVE: [
@@ -606,7 +607,7 @@ const categories = ref({
       riwayat:
         'Berbekal pengalaman lebih dari 27 tahun di bidang Sumber Daya Manusia (SDM), Beliau juga pernah menjabat posisi General Manager dan Senior General Manager di sejumlah perusahaan pembiayaan.',
       pendidikan:
-        'Beliau meraih gelar Sarjana (S1) dari Universitas Diponegoro, Semarang pada tahun 1985 dan gelar Magister (S2) dari Universitas Gadjah Mada, Jakarta pada tahun 2003.',
+        'Beliau meraih gelar Sarjana dari Universitas Diponegoro pada 1985 dan gelar Magister (S2) dari Universitas Gadjah Mada pada 2003.',
     },
     {
       warna: 'tabevp',
@@ -625,8 +626,8 @@ const categories = ref({
       nama: 'Jahja Anwar',
       jabatan: 'Sekertaris Perusahaan',
       foto: 'https://clipan.id/aset/uploads/Manajemen-Jahja.jpg',
-      riwayat:
-        'Country Manager di Wells Fargo Bank (2004-2012);• Executive Vice President di Perseroan (2012-2013) <br>• Menjabat sebagai Direktur Perseroan sejak tahun 2013.',
+       riwayat:
+        'Beliau pernah menjabat sebagai Country Manager di beberapa bank di Amerika Serikat dan telah bergabung dengan Clipan sejak 2012. Kemudian beliau diangkat menjadi Sekretaris Perusahaan pada 2013.',
       pendidikan:
         'Master of Business Adminstration (MBA) dari De Paul University Of Chicago, Amerika Serikat (1990).',
     },

@@ -452,7 +452,7 @@ const rups = [
         ],
       },
       {
-        judul: 'Materi',
+        judul: 'Informasi Dividen',
         download: [
           {
             to: '/2023-MATERI.pdf',

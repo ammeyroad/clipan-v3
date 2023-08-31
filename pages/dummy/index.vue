@@ -249,7 +249,7 @@
         </div>
         <div class="flex w-full md:mx-auto md:max-w-screen-xl overflow-x-auto">
           <div class="flex sm:flex-wrap">
-            <div v-for="daftar in rups" class="px-2 pb-6 sm:px-4 w-72 sm:w-1/3">
+            <div v-for="daftar in rups" class="px-2 pb-6 sm:px-4 w-72 sm:w-1/2">
               <div
                 class="
                   rounded-xl

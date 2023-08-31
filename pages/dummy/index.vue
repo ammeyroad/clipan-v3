@@ -244,13 +244,13 @@
             ></span>
           </div>
           <h3 class="pr-8 sm:px-32 pb-5 hed4">
-            Informasi bagi investor, masyarakat pasar modal dan pemegang saham
-            disajikan dengan transparan
+            Informasi terkini bagi masyarakat, investor, dan pemegang saham
+            yang disajikan dengan transparan
           </h3>
         </div>
-        <div class="flex w-full md:mx-auto md:max-w-screen-xl overflow-x-auto">
+        <div class="flex w-full sm:mx-auto md:max-w-screen-xl overflow-x-auto">
           <div class="flex sm:flex-wrap">
-            <div v-for="daftar in rups" class="px-2 pb-6 sm:px-4 w-72 sm:w-1/2">
+            <div v-for="daftar in rups" class="px-2 pb-6 w-72">
               <div
                 class="
                   rounded-xl

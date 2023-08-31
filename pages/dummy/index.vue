@@ -109,7 +109,7 @@
               class="inline-block w-1.5 h-1.5 ml-1 bg-yellow-400 rounded-full"
             ></span>
           </div>
-          <h3 class="pr-8 sm:px-32  hed4 normal-case">
+          <h3 class="pr-8 sm:px-32 hed4 normal-case">
             Kinerja Clipan tidak lepas dari peranan jajaran Komisaris dan
             Direksi yang berpengalaman, berprestasi, dan pakar di bidangnya.
           </h3>
@@ -159,7 +159,7 @@
                       v-for="post in posts"
                       :key="post.id"
                       class="
-                      mb-8
+                        mb-8
                         group
                         relative
                         rounded-xl
@@ -168,7 +168,6 @@
                         sm:w-1/4
                         space-y-6
                         overflow-hidden
-                       
                       "
                     >
                       <img
@@ -256,8 +255,7 @@
                   rounded-xl
                   hover:shadow-lg
                   bg-white
-                  border
-                  border-blue-50
+                  border border-blue-50
                   hover:bg-gray-50
                   rounded-xl
                   duration-200
@@ -276,7 +274,7 @@
                       p-4
                     "
                   >
-                    Tahun {{ daftar.tahun }}
+                   {{ daftar.tahun }}
                   </h4>
                 </div>
                 <ul class="divide-y divide-gray-300/50 p-2">
@@ -365,16 +363,13 @@ const submenus = [
 
 const rups = [
   {
-    tahun: '2023',
+    tahun: '2023 Luar Biasa',
     daftars: [
       {
         judul: 'Pengumuman',
         download: [
           {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
+            to: '/2023-2-RUPSLB-PENGUMUMAN.pdf',
           },
         ],
       },
@@ -382,21 +377,7 @@ const rups = [
         judul: 'Pemanggilan',
         download: [
           {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
-          },
-        ],
-      },
-      {
-        judul: 'Surat Kuasa',
-        download: [
-          {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
+            to: '/2023-2-RUPSLB-PEMANGGILAN.pdf',
           },
         ],
       },
@@ -404,28 +385,22 @@ const rups = [
         judul: 'Tata Tertib',
         download: [
           {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
+            to: '/2023-2-RUPSLB-TATATERTIB.pdf',
           },
         ],
       },
       {
-        judul: 'Informasi Dividen',
+        judul: 'Surat Kuasa',
         download: [
           {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
+            to: '/2023-2-RUPSLB-SURATKUASA.pdf',
           },
         ],
       },
     ],
   },
   {
-    tahun: '2022',
+    tahun: 'Tahun 2022',
     daftars: [
       {
         judul: 'Pengumuman',
@@ -641,7 +616,7 @@ const categories = ref({
         '• Sarjana Ekonomi dari Fakultas Ekonomi, Universitas Indonesia, Jakarta (1981)',
     },
   ],
- DIREKSI: [
+  DIREKSI: [
     {
       warna: 'tabdireksi',
       id: 1,
@@ -688,7 +663,7 @@ const categories = ref({
   ],
   EXECUTIVE: [
     {
-       warna: 'tabevp',
+      warna: 'tabevp',
       id: 1,
       nama: 'Donny Tri Wardono',
       jabatan: 'Executive Vice President',
@@ -699,7 +674,7 @@ const categories = ref({
         'Beliau meraih gelar Sarjana (S1) dari Universitas Diponegoro, Semarang pada tahun 1985 dan gelar Magister (S2) dari Universitas Gadjah Mada, Jakarta pada tahun 2003.',
     },
     {
-       warna: 'tabevp',
+      warna: 'tabevp',
       id: 2,
       nama: 'Halim Ngatidjan',
       jabatan: 'Executive Vice President',
@@ -710,7 +685,7 @@ const categories = ref({
         'Beliau meraih gelar Master of Business Administration dari Monash University, Melbourne pada tahun 1996.',
     },
     {
-       warna: 'tabsec',
+      warna: 'tabsec',
       id: 3,
       nama: 'Jahja Anwar',
       jabatan: 'Sekertaris Perusahaan',

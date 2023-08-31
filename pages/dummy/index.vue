@@ -274,7 +274,7 @@
                       p-4
                     "
                   >
-                   {{ daftar.tahun }}
+                    {{ daftar.tahun }}
                   </h4>
                 </div>
                 <ul class="divide-y divide-gray-300/50 p-2">
@@ -397,19 +397,24 @@ const rups = [
           },
         ],
       },
+            {
+        judul: 'Risalah Rapat',
+        download: [
+          {
+            to: '/2023-2-RUPSLB-RISALAH.pdf',
+          },
+        ],
+      },
     ],
   },
   {
-    tahun: 'Tahun 2022',
+    tahun: 'Tahun 2023',
     daftars: [
       {
         judul: 'Pengumuman',
         download: [
           {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
+            to: '/2023-PENGUMUMAN-ID.pdf',
           },
         ],
       },
@@ -417,21 +422,7 @@ const rups = [
         judul: 'Pemanggilan',
         download: [
           {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
-          },
-        ],
-      },
-      {
-        judul: 'Surat Kuasa',
-        download: [
-          {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
+            to: '/2023-PEMANGGILAN-ID.pdf',
           },
         ],
       },
@@ -439,59 +430,55 @@ const rups = [
         judul: 'Tata Tertib',
         download: [
           {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
+            to: '/2023-TATATERTIB-ID.pdf',
           },
         ],
       },
       {
-        judul: 'Informasi Dividen',
+        judul: 'Surat Kuasa',
         download: [
           {
-            to: '/profile#tentang',
+            to: '/2023-SURATKUASA-ID.pdf',
           },
+        ],
+      },
+       {
+        judul: 'Risalah Rapat',
+        download: [
           {
-            to: '/prof',
+            to: '/2023-RISALAH-ID.pdf',
+          },
+        ],
+      },
+      {
+        judul: 'Materi',
+        download: [
+          {
+            to: '/2023-MATERI.pdf',
           },
         ],
       },
     ],
   },
   {
-    tahun: '2021',
+    tahun: 'TAHUN 2022',
     daftars: [
       {
         judul: 'Pengumuman',
         download: [
           {
-            to: '/profile#tentang',
+            to: '/2022-PENGUMUMAN-ID.pdf',
           },
-          {
-            to: '/prof',
+           {
+            to: '/2022-PENGUMUMAN-ENG.pdf',
           },
         ],
       },
-      {
+            {
         judul: 'Pemanggilan',
         download: [
           {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
-          },
-        ],
-      },
-      {
-        judul: 'Surat Kuasa',
-        download: [
-          {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
+            to: '/2023-PEMANGGILAN-ID.pdf',
           },
         ],
       },
@@ -499,48 +486,7 @@ const rups = [
         judul: 'Tata Tertib',
         download: [
           {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
-          },
-        ],
-      },
-      {
-        judul: 'Informasi Dividen',
-        download: [
-          {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    tahun: '2020',
-    daftars: [
-      {
-        judul: 'Pengumuman',
-        download: [
-          {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
-          },
-        ],
-      },
-      {
-        judul: 'Pemanggilan',
-        download: [
-          {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
+            to: '/2022-TATATERTIB.pdf',
           },
         ],
       },
@@ -548,32 +494,18 @@ const rups = [
         judul: 'Surat Kuasa',
         download: [
           {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
+            to: '/2022-SURATKUASA.pdf',
           },
         ],
       },
       {
-        judul: 'Tata Tertib',
+        judul: 'Risalah Rapat',
         download: [
           {
-            to: '/profile#tentang',
+            to: '/2022-RISALAH-ID.pdf',
           },
-          {
-            to: '/prof',
-          },
-        ],
-      },
-      {
-        judul: 'Informasi Dividen',
-        download: [
-          {
-            to: '/profile#tentang',
-          },
-          {
-            to: '/prof',
+           {
+            to: '/2022-RISALAH-ENG.pdf',
           },
         ],
       },

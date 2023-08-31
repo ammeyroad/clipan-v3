@@ -480,6 +480,9 @@ const rups = [
           {
             to: '/2023-PEMANGGILAN-ID.pdf',
           },
+          {
+            to: '/2023-PEMANGGILAN-EN.pdf',
+          },
         ],
       },
       {

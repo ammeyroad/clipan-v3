@@ -244,7 +244,7 @@
             ></span>
           </div>
           <h3 class="pr-8 sm:px-32 pb-5 hed4">
-            Informasi terkini bagi masyarakat, investor, dan pemegang saham
+            Informasi terkini bagi masyarakat, Investor, dan pemegang saham
             yang disajikan dengan transparan
           </h3>
         </div>

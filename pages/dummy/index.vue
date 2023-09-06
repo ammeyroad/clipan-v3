@@ -370,7 +370,7 @@ const rups = [
         judul: 'Pengumuman',
         download: [
           {
-            to: '/2023-2-RUPSLB-PENGUMUMAN.pdf',
+            to: '/wp-content/uploads/2023/09/2023-2-RUPSLB-PENGUMUMAN.pdf',
           },
         ],
       },
@@ -378,7 +378,7 @@ const rups = [
         judul: 'Pemanggilan',
         download: [
           {
-            to: '/2023-2-RUPSLB-PEMANGGILAN.pdf',
+            to: '/wp-content/uploads/2023/09/2023-2-RUPSLB-PEMANGGILAN.pdf',
           },
         ],
       },
@@ -386,7 +386,7 @@ const rups = [
         judul: 'Tata Tertib',
         download: [
           {
-            to: '/2023-2-RUPSLB-TATATERTIB.pdf',
+            to: '/wp-content/uploads/2023/09/2023-2-RUPSLB-TATATERTIB.pdf',
           },
         ],
       },
@@ -394,7 +394,7 @@ const rups = [
         judul: 'Surat Kuasa',
         download: [
           {
-            to: '/2023-2-RUPSLB-SURATKUASA.pdf',
+            to: '/wp-content/uploads/2023/09/2023-2-RUPSLB-SURATKUASA.pdf',
           },
         ],
       },
@@ -402,7 +402,7 @@ const rups = [
         judul: 'Risalah Rapat',
         download: [
           {
-            to: '/2023-2-RUPSLB-RISALAH.pdf',
+            to: '/wp-content/uploads/2023/09/2023-2-RUPSLB-RISALAH.pdf',
           },
         ],
       },
@@ -415,7 +415,7 @@ const rups = [
         judul: 'Pengumuman',
         download: [
           {
-            to: '/2023-PENGUMUMAN-ID.pdf',
+            to: '/wp-content/uploads/2023/09/2023-PENGUMUMAN-ID.pdf',
           },
         ],
       },
@@ -423,7 +423,7 @@ const rups = [
         judul: 'Pemanggilan',
         download: [
           {
-            to: '/2023-PEMANGGILAN-ID.pdf',
+            to: '/wp-content/uploads/2023/09/2023-PEMANGGILAN-ID.pdf',
           },
         ],
       },
@@ -431,7 +431,7 @@ const rups = [
         judul: 'Tata Tertib',
         download: [
           {
-            to: '/2023-TATATERTIB-ID.pdf',
+            to: '/wp-content/uploads/2023/09/2023-TATATERTIB-ID.pdf',
           },
         ],
       },
@@ -439,7 +439,7 @@ const rups = [
         judul: 'Surat Kuasa',
         download: [
           {
-            to: '/2023-SURATKUASA-ID.pdf',
+            to: '/wp-content/uploads/2023/09/2023-SURATKUASA-ID.pdf',
           },
         ],
       },
@@ -447,7 +447,7 @@ const rups = [
         judul: 'Risalah Rapat',
         download: [
           {
-            to: '/2023-RISALAH-ID.pdf',
+            to: '/wp-content/uploads/2023/09/2023-RISALAH-ID.pdf',
           },
         ],
       },
@@ -455,7 +455,7 @@ const rups = [
         judul: 'Informasi Dividen',
         download: [
           {
-            to: '/2023-MATERI.pdf',
+            to: '/wp-content/uploads/2023/09/2023-MATERI.pdf',
           },
         ],
       },
@@ -468,10 +468,10 @@ const rups = [
         judul: 'Pengumuman',
         download: [
           {
-            to: '/2022-PENGUMUMAN-ID.pdf',
+            to: '/wp-content/uploads/2023/09/2022-PENGUMUMAN-ID.pdf',
           },
            {
-            to: '/2022-PENGUMUMAN-ENG.pdf',
+            to: '/wp-content/uploads/2023/09/2022-PENGUMUMAN-ENG.pdf',
           },
         ],
       },
@@ -479,10 +479,10 @@ const rups = [
         judul: 'Pemanggilan',
         download: [
           {
-            to: '/2023-PEMANGGILAN-ID.pdf',
+            to: '/wp-content/uploads/2023/09/2023-PEMANGGILAN-ID.pdf',
           },
           {
-            to: '/2023-PEMANGGILAN-EN.pdf',
+            to: '/wp-content/uploads/2023/09/2023-PEMANGGILAN-EN.pdf',
           },
         ],
       },
@@ -490,7 +490,7 @@ const rups = [
         judul: 'Tata Tertib',
         download: [
           {
-            to: '/2022-TATATERTIB.pdf',
+            to: '/wp-content/uploads/2023/09/2022-TATATERTIB.pdf',
           },
         ],
       },
@@ -498,7 +498,7 @@ const rups = [
         judul: 'Surat Kuasa',
         download: [
           {
-            to: '/2022-SURATKUASA.pdf',
+            to: '/wp-content/uploads/2023/09/2022-SURATKUASA.pdf',
           },
         ],
       },
@@ -506,10 +506,10 @@ const rups = [
         judul: 'Risalah Rapat',
         download: [
           {
-            to: '/2022-RISALAH-ID.pdf',
+            to: '/wp-content/uploads/2023/09/2022-RISALAH-ID.pdf',
           },
            {
-            to: '/2022-RISALAH-ENG.pdf',
+            to: '/wp-content/uploads/2023/09/2022-RISALAH-ENG.pdf',
           },
         ],
       },

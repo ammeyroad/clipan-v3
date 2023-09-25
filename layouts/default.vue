@@ -3,7 +3,7 @@
    <!-- <LayoutMenu /> -->
     <slot />
       <MenuBawah />
-    <LayoutFooter />
+    <!-- <LayoutFooter /> -->
    
   </main>
 </template>

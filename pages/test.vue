@@ -39,10 +39,10 @@ import { ref, onMounted } from 'vue';
 
 const submenus = ref([]);
 
-// Fungsi untuk mengambil data submenu dari API
+// Fungsi untuk mengambil data submenu dari API, hilangin username kalo semua ingin muncuk
 async function fetchSubmenus() {
   try {
-    const response = await fetch('https://clipan.id/api/users.php?action=read');
+    const response = await fetch('https://clipan.id/api/users.php?action=read&username=');
     if (!response.ok) {
       throw new Error('Failed to fetch data from the API');
     }

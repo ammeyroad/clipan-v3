@@ -1,4 +1,5 @@
 <template>
+<LayoutMenu />
   <div class="">
     <PerusahaanProfilSubMenu />
     <PerusahaanProfilTabProfile />

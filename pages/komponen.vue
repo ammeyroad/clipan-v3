@@ -1,7 +1,7 @@
 <template>
 <div>
-<nav class="fixed left-0 top-0 z-50 w-full">
-  <div class="inset-0 top-0 z-20 mx-auto flex h-16 w-full max-w-screen-xl rounded-b-lg bg-gray-100 px-5 shadow-lg">
+<nav class="fixed left-0 -top-1 z-50 w-full">
+  <div class="inset-0 top-0 z-20 mx-auto flex h-16 w-full max-w-screen-xl rounded-b-lg bg-white px-5 shadow-lg">
     <a href="https://flowbite.com/" class="z-20 flex items-center">
       <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="Flowbite Logo" />
       <span class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">Flowbite</span>

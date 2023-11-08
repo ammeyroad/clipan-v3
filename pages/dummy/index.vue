@@ -338,6 +338,8 @@
         </div>
       </div>
     </section>
+
+    <formnetifly />
   </div>
 </template>
 

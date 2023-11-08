@@ -1,27 +1,7 @@
 <template>
   <section class="text-gray-600 body-font relative">
     <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-      <div
-        class="
-          lg:w-2/3
-          md:w-1/2
-          bg-gray-100
-          rounded-lg
-          overflow-hidden
-          sm:mr-10
-          flex
-          items
-          end
-          justify-start
-          relative
-        "
-      >
-        <img
-          class="object-cover object-center rounded"
-          alt="hero"
-          src="https://jscrambler.com/img/containers/images/blog-images/creating-a-simple-and-functional-form-using-netlify-and-vue.png/3baea3fc18425ef0e055fe53e3a908ae.webp"
-        />
-      </div>
+
       <div
         class="
           lg:w-1/3

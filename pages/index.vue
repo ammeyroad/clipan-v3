@@ -3,6 +3,7 @@
     <SliderUtama />
     <HomeKuning />
     <HomeSejarah />
+    <formnetifly />
 
     <!-- Simulasi -->
     <section class="bg-gradient-to-br from-blue-500 to-blue-600 py-32">

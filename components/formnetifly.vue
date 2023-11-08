@@ -48,6 +48,7 @@
       </div>
       <div>
         <button 
+        class="p-4 bg-blue-400"
           type="submit" 
           :disabled="!checked"
         >

@@ -5,7 +5,7 @@
       netlify-honeypot
       name="feedback"
       method="POST"
-      action="/success"
+      action="/crud-2"
     >
       <p class="hidden">
         <label>

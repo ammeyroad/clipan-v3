@@ -183,10 +183,9 @@
           class="
             mx-auto
             mt-16
-           
             grid grid-cols-2
             divide-x divide-y divide-gray-100
-             hover:border-1
+            hover:border-1
             sm:grid-cols-4
             lg:divide-y-0
             xl:grid-cols-4
@@ -373,7 +372,7 @@
     </div>
   </section>
   <section class="grid h-max content-center">
-    <div class="container mx-auto items-center p-6 ">
+    <div class="container mx-auto items-center p-6">
       <div class="text-gray-700">
         <span
           class="
@@ -1849,6 +1848,1051 @@
       </div>
     </div>
   </section>
+  <section class="grid h-max content-center">
+    <div class="container mx-auto items-center px-6 p-6">
+      <div class="text-gray-700">
+        <div class="sm:flex justify-between items-end">
+          <div>
+            <span
+              class="
+                rounded-full
+                bg-yellow-400
+                px-2.5
+                py-1.5
+                text-center text-xs
+                font-bold
+                uppercase
+              "
+              >Proses</span
+            >
+            <h1
+              class="
+                my-2
+                mb-4
+                text-2xl
+                font-bold
+                capitalize
+                text-blue-600
+                drop-shadow
+              "
+            >
+              kendaraan of the month
+            </h1>
+          </div>
+          <div>
+            <button
+              href="#"
+              class="
+                mb-2
+                rounded-full
+                border border-blue-600
+                bg-blue-600
+                px-5
+                py-2.5
+                text-sm
+                font-bold
+                uppercase
+                text-white
+                hover:bg-blue-700
+                hover:text-yellow-400
+                hover:shadow-lg
+                hover:shadow-blue-700/50
+                focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200
+              "
+            >
+              lihat semua
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="py-8">
+        <div
+          class="
+            flex
+            w-full
+            overflow-x-auto
+            pl-4
+            py-0
+            sm:-mt-8
+            md:mx-auto
+            [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]
+          "
+        >
+          <div class="flex space-x-4 pb-10 animate-infinitescroll">
+            ">
+            <div class="rounded-xl w-80 bg-white p-2">
+              <a
+                href="#"
+                class="
+                  group
+                  relative
+                  mb-2
+                  block
+                  h-72
+                  overflow-hidden
+                  rounded-lg
+                  bg-gray-100
+                  lg:mb-3
+                "
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
+                  loading="lazy"
+                  alt="Photo by Austin Wade"
+                  class="
+                    h-full
+                    w-full
+                    object-cover object-center
+                    transition
+                    duration-200
+                    group-hover:scale-110
+                  "
+                />
 
+                <div class="absolute left-2 top-2 flex gap-2">
+                  <span
+                    class="
+                      rounded
+                      bg-white
+                      px-3
+                      py-1.5
+                      text-sm
+                      font-bold
+                      uppercase
+                      tracking-wider
+                      text-gray-800
+                    "
+                    >Mobil baru</span
+                  >
+                </div>
+              </a>
 
+              <div class="flex items-start justify-between gap-2 px-2">
+                <div class="w-10/12 pr-4">
+                  <a
+                    href="#"
+                    class="
+                      font-bold
+                      capitalize
+                      text-gray-800
+                      transition
+                      duration-100
+                      hover:text-gray-500
+                    "
+                    >produk_judul 2018 Mercedes-Benz GLA 200 AMG 1.6</a
+                  >
+                </div>
+
+                <div class="w-2/12">
+                  <img
+                    alt="testimonial"
+                    class="
+                      mx-auto
+                      inline-block
+                      h-16
+                      w-16
+                      rounded-full
+                      border-white
+                      object-cover object-center
+                    "
+                    src="https://wickedblocks.dev/assets/images/avatar.png"
+                  />
+                </div>
+              </div>
+              <div class="text-semibold mt-4 flex gap-2 text-xs text-gray-400">
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.161 2.58a1.875 1.875 0 011.678 0l4.993 2.498c.106.052.23.052.336 0l3.869-1.935A1.875 1.875 0 0121.75 4.82v12.485c0 .71-.401 1.36-1.037 1.677l-4.875 2.437a1.875 1.875 0 01-1.676 0l-4.994-2.497a.375.375 0 00-.336 0l-3.868 1.935A1.875 1.875 0 012.25 19.18V6.695c0-.71.401-1.36 1.036-1.677l4.875-2.437zM9 6a.75.75 0 01.75.75V15a.75.75 0 01-1.5 0V6.75A.75.75 0 019 6zm6.75 3a.75.75 0 00-1.5 0v8.25a.75.75 0 001.5 0V9z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">123.000 km</p>
+                </span>
+                |
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.828 2.25c-.916 0-1.699.663-1.85 1.567l-.091.549a.798.798 0 01-.517.608 7.45 7.45 0 00-.478.198.798.798 0 01-.796-.064l-.453-.324a1.875 1.875 0 00-2.416.2l-.243.243a1.875 1.875 0 00-.2 2.416l.324.453a.798.798 0 01.064.796 7.448 7.448 0 00-.198.478.798.798 0 01-.608.517l-.55.092a1.875 1.875 0 00-1.566 1.849v.344c0 .916.663 1.699 1.567 1.85l.549.091c.281.047.508.25.608.517.06.162.127.321.198.478a.798.798 0 01-.064.796l-.324.453a1.875 1.875 0 00.2 2.416l.243.243c.648.648 1.67.733 2.416.2l.453-.324a.798.798 0 01.796-.064c.157.071.316.137.478.198.267.1.47.327.517.608l.092.55c.15.903.932 1.566 1.849 1.566h.344c.916 0 1.699-.663 1.85-1.567l.091-.549a.798.798 0 01.517-.608 7.52 7.52 0 00.478-.198.798.798 0 01.796.064l.453.324a1.875 1.875 0 002.416-.2l.243-.243c.648-.648.733-1.67.2-2.416l-.324-.453a.798.798 0 01-.064-.796c.071-.157.137-.316.198-.478.1-.267.327-.47.608-.517l.55-.091a1.875 1.875 0 001.566-1.85v-.344c0-.916-.663-1.699-1.567-1.85l-.549-.091a.798.798 0 01-.608-.517 7.507 7.507 0 00-.198-.478.798.798 0 01.064-.796l.324-.453a1.875 1.875 0 00-.2-2.416l-.243-.243a1.875 1.875 0 00-2.416-.2l-.453.324a.798.798 0 01-.796.064 7.462 7.462 0 00-.478-.198.798.798 0 01-.517-.608l-.091-.55a1.875 1.875 0 00-1.85-1.566h-.344zM12 15.75a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">AT</p>
+                </span>
+                |
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">Jakarta Utara</p>
+                </span>
+              </div>
+              <hr class="my-2" />
+              <div class="flex items-end justify-between">
+                <div class="px-2">
+                  <a
+                    href="#"
+                    class="
+                      text-2xl
+                      font-bold
+                      capitalize
+                      text-blue-600
+                      transition
+                      duration-100
+                      hover:text-gray-500
+                    "
+                  >
+                    3.000.000
+                    <span class="text-semibold text-xs text-gray-700"
+                      >/bulan
+                    </span>
+                  </a>
+                  <p class="text-xs">Uang muka mulai dari Rp. 23.000.000</p>
+                </div>
+                <button
+                  href="#"
+                  class="
+                    h-10
+                    w-10
+                    scale-100
+                    rounded-full
+                    border border-blue-600
+                    bg-transparent
+                    text-sm
+                    font-bold
+                    uppercase
+                    text-blue-600
+                    transition
+                    duration-150
+                    hover:scale-105
+                    hover:bg-blue-700
+                    hover:text-yellow-400
+                    hover:shadow-lg
+                    hover:shadow-blue-700/50
+                    focus:z-10
+                    focus:outline-none
+                    focus:ring-4
+                    focus:ring-gray-200
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="mx-auto h-6 w-6"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="rounded-xl w-80 bg-white p-2">
+              <a
+                href="#"
+                class="
+                  group
+                  relative
+                  mb-2
+                  block
+                  h-72
+                  overflow-hidden
+                  rounded-lg
+                  bg-gray-100
+                  lg:mb-3
+                "
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
+                  loading="lazy"
+                  alt="Photo by Austin Wade"
+                  class="
+                    h-full
+                    w-full
+                    object-cover object-center
+                    transition
+                    duration-200
+                    group-hover:scale-110
+                  "
+                />
+
+                <div class="absolute left-2 top-2 flex gap-2">
+                  <span
+                    class="
+                      rounded
+                      bg-white
+                      px-3
+                      py-1.5
+                      text-sm
+                      font-bold
+                      uppercase
+                      tracking-wider
+                      text-gray-800
+                    "
+                    >Mobil baru</span
+                  >
+                </div>
+              </a>
+
+              <div class="flex items-start justify-between gap-2 px-2">
+                <div class="w-10/12 pr-4">
+                  <a
+                    href="#"
+                    class="
+                      font-bold
+                      capitalize
+                      text-gray-800
+                      transition
+                      duration-100
+                      hover:text-gray-500
+                    "
+                    >produk_judul 2018 Mercedes-Benz GLA 200 AMG 1.6</a
+                  >
+                </div>
+
+                <div class="w-2/12">
+                  <img
+                    alt="testimonial"
+                    class="
+                      mx-auto
+                      inline-block
+                      h-16
+                      w-16
+                      rounded-full
+                      border-white
+                      object-cover object-center
+                    "
+                    src="https://wickedblocks.dev/assets/images/avatar.png"
+                  />
+                </div>
+              </div>
+              <div class="text-semibold mt-4 flex gap-2 text-xs text-gray-400">
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.161 2.58a1.875 1.875 0 011.678 0l4.993 2.498c.106.052.23.052.336 0l3.869-1.935A1.875 1.875 0 0121.75 4.82v12.485c0 .71-.401 1.36-1.037 1.677l-4.875 2.437a1.875 1.875 0 01-1.676 0l-4.994-2.497a.375.375 0 00-.336 0l-3.868 1.935A1.875 1.875 0 012.25 19.18V6.695c0-.71.401-1.36 1.036-1.677l4.875-2.437zM9 6a.75.75 0 01.75.75V15a.75.75 0 01-1.5 0V6.75A.75.75 0 019 6zm6.75 3a.75.75 0 00-1.5 0v8.25a.75.75 0 001.5 0V9z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">123.000 km</p>
+                </span>
+                |
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.828 2.25c-.916 0-1.699.663-1.85 1.567l-.091.549a.798.798 0 01-.517.608 7.45 7.45 0 00-.478.198.798.798 0 01-.796-.064l-.453-.324a1.875 1.875 0 00-2.416.2l-.243.243a1.875 1.875 0 00-.2 2.416l.324.453a.798.798 0 01.064.796 7.448 7.448 0 00-.198.478.798.798 0 01-.608.517l-.55.092a1.875 1.875 0 00-1.566 1.849v.344c0 .916.663 1.699 1.567 1.85l.549.091c.281.047.508.25.608.517.06.162.127.321.198.478a.798.798 0 01-.064.796l-.324.453a1.875 1.875 0 00.2 2.416l.243.243c.648.648 1.67.733 2.416.2l.453-.324a.798.798 0 01.796-.064c.157.071.316.137.478.198.267.1.47.327.517.608l.092.55c.15.903.932 1.566 1.849 1.566h.344c.916 0 1.699-.663 1.85-1.567l.091-.549a.798.798 0 01.517-.608 7.52 7.52 0 00.478-.198.798.798 0 01.796.064l.453.324a1.875 1.875 0 002.416-.2l.243-.243c.648-.648.733-1.67.2-2.416l-.324-.453a.798.798 0 01-.064-.796c.071-.157.137-.316.198-.478.1-.267.327-.47.608-.517l.55-.091a1.875 1.875 0 001.566-1.85v-.344c0-.916-.663-1.699-1.567-1.85l-.549-.091a.798.798 0 01-.608-.517 7.507 7.507 0 00-.198-.478.798.798 0 01.064-.796l.324-.453a1.875 1.875 0 00-.2-2.416l-.243-.243a1.875 1.875 0 00-2.416-.2l-.453.324a.798.798 0 01-.796.064 7.462 7.462 0 00-.478-.198.798.798 0 01-.517-.608l-.091-.55a1.875 1.875 0 00-1.85-1.566h-.344zM12 15.75a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">AT</p>
+                </span>
+                |
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">Jakarta Utara</p>
+                </span>
+              </div>
+              <hr class="my-2" />
+              <div class="flex items-end justify-between">
+                <div class="px-2">
+                  <a
+                    href="#"
+                    class="
+                      text-2xl
+                      font-bold
+                      capitalize
+                      text-blue-600
+                      transition
+                      duration-100
+                      hover:text-gray-500
+                    "
+                  >
+                    3.000.000
+                    <span class="text-semibold text-xs text-gray-700"
+                      >/bulan
+                    </span>
+                  </a>
+                  <p class="text-xs">Uang muka mulai dari Rp. 23.000.000</p>
+                </div>
+                <button
+                  href="#"
+                  class="
+                    h-10
+                    w-10
+                    scale-100
+                    rounded-full
+                    border border-blue-600
+                    bg-transparent
+                    text-sm
+                    font-bold
+                    uppercase
+                    text-blue-600
+                    transition
+                    duration-150
+                    hover:scale-105
+                    hover:bg-blue-700
+                    hover:text-yellow-400
+                    hover:shadow-lg
+                    hover:shadow-blue-700/50
+                    focus:z-10
+                    focus:outline-none
+                    focus:ring-4
+                    focus:ring-gray-200
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="mx-auto h-6 w-6"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="rounded-xl w-80 bg-white p-2">
+              <a
+                href="#"
+                class="
+                  group
+                  relative
+                  mb-2
+                  block
+                  h-72
+                  overflow-hidden
+                  rounded-lg
+                  bg-gray-100
+                  lg:mb-3
+                "
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
+                  loading="lazy"
+                  alt="Photo by Austin Wade"
+                  class="
+                    h-full
+                    w-full
+                    object-cover object-center
+                    transition
+                    duration-200
+                    group-hover:scale-110
+                  "
+                />
+
+                <div class="absolute left-2 top-2 flex gap-2">
+                  <span
+                    class="
+                      rounded
+                      bg-white
+                      px-3
+                      py-1.5
+                      text-sm
+                      font-bold
+                      uppercase
+                      tracking-wider
+                      text-gray-800
+                    "
+                    >Mobil baru</span
+                  >
+                </div>
+              </a>
+
+              <div class="flex items-start justify-between gap-2 px-2">
+                <div class="w-10/12 pr-4">
+                  <a
+                    href="#"
+                    class="
+                      font-bold
+                      capitalize
+                      text-gray-800
+                      transition
+                      duration-100
+                      hover:text-gray-500
+                    "
+                    >produk_judul 2018 Mercedes-Benz GLA 200 AMG 1.6</a
+                  >
+                </div>
+
+                <div class="w-2/12">
+                  <img
+                    alt="testimonial"
+                    class="
+                      mx-auto
+                      inline-block
+                      h-16
+                      w-16
+                      rounded-full
+                      border-white
+                      object-cover object-center
+                    "
+                    src="https://wickedblocks.dev/assets/images/avatar.png"
+                  />
+                </div>
+              </div>
+              <div class="text-semibold mt-4 flex gap-2 text-xs text-gray-400">
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.161 2.58a1.875 1.875 0 011.678 0l4.993 2.498c.106.052.23.052.336 0l3.869-1.935A1.875 1.875 0 0121.75 4.82v12.485c0 .71-.401 1.36-1.037 1.677l-4.875 2.437a1.875 1.875 0 01-1.676 0l-4.994-2.497a.375.375 0 00-.336 0l-3.868 1.935A1.875 1.875 0 012.25 19.18V6.695c0-.71.401-1.36 1.036-1.677l4.875-2.437zM9 6a.75.75 0 01.75.75V15a.75.75 0 01-1.5 0V6.75A.75.75 0 019 6zm6.75 3a.75.75 0 00-1.5 0v8.25a.75.75 0 001.5 0V9z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">123.000 km</p>
+                </span>
+                |
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.828 2.25c-.916 0-1.699.663-1.85 1.567l-.091.549a.798.798 0 01-.517.608 7.45 7.45 0 00-.478.198.798.798 0 01-.796-.064l-.453-.324a1.875 1.875 0 00-2.416.2l-.243.243a1.875 1.875 0 00-.2 2.416l.324.453a.798.798 0 01.064.796 7.448 7.448 0 00-.198.478.798.798 0 01-.608.517l-.55.092a1.875 1.875 0 00-1.566 1.849v.344c0 .916.663 1.699 1.567 1.85l.549.091c.281.047.508.25.608.517.06.162.127.321.198.478a.798.798 0 01-.064.796l-.324.453a1.875 1.875 0 00.2 2.416l.243.243c.648.648 1.67.733 2.416.2l.453-.324a.798.798 0 01.796-.064c.157.071.316.137.478.198.267.1.47.327.517.608l.092.55c.15.903.932 1.566 1.849 1.566h.344c.916 0 1.699-.663 1.85-1.567l.091-.549a.798.798 0 01.517-.608 7.52 7.52 0 00.478-.198.798.798 0 01.796.064l.453.324a1.875 1.875 0 002.416-.2l.243-.243c.648-.648.733-1.67.2-2.416l-.324-.453a.798.798 0 01-.064-.796c.071-.157.137-.316.198-.478.1-.267.327-.47.608-.517l.55-.091a1.875 1.875 0 001.566-1.85v-.344c0-.916-.663-1.699-1.567-1.85l-.549-.091a.798.798 0 01-.608-.517 7.507 7.507 0 00-.198-.478.798.798 0 01.064-.796l.324-.453a1.875 1.875 0 00-.2-2.416l-.243-.243a1.875 1.875 0 00-2.416-.2l-.453.324a.798.798 0 01-.796.064 7.462 7.462 0 00-.478-.198.798.798 0 01-.517-.608l-.091-.55a1.875 1.875 0 00-1.85-1.566h-.344zM12 15.75a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">AT</p>
+                </span>
+                |
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">Jakarta Utara</p>
+                </span>
+              </div>
+              <hr class="my-2" />
+              <div class="flex items-end justify-between">
+                <div class="px-2">
+                  <a
+                    href="#"
+                    class="
+                      text-2xl
+                      font-bold
+                      capitalize
+                      text-blue-600
+                      transition
+                      duration-100
+                      hover:text-gray-500
+                    "
+                  >
+                    3.000.000
+                    <span class="text-semibold text-xs text-gray-700"
+                      >/bulan
+                    </span>
+                  </a>
+                  <p class="text-xs">Uang muka mulai dari Rp. 23.000.000</p>
+                </div>
+                <button
+                  href="#"
+                  class="
+                    h-10
+                    w-10
+                    scale-100
+                    rounded-full
+                    border border-blue-600
+                    bg-transparent
+                    text-sm
+                    font-bold
+                    uppercase
+                    text-blue-600
+                    transition
+                    duration-150
+                    hover:scale-105
+                    hover:bg-blue-700
+                    hover:text-yellow-400
+                    hover:shadow-lg
+                    hover:shadow-blue-700/50
+                    focus:z-10
+                    focus:outline-none
+                    focus:ring-4
+                    focus:ring-gray-200
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="mx-auto h-6 w-6"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="rounded-xl w-80 bg-white p-2">
+              <a
+                href="#"
+                class="
+                  group
+                  relative
+                  mb-2
+                  block
+                  h-72
+                  overflow-hidden
+                  rounded-lg
+                  bg-gray-100
+                  lg:mb-3
+                "
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
+                  loading="lazy"
+                  alt="Photo by Austin Wade"
+                  class="
+                    h-full
+                    w-full
+                    object-cover object-center
+                    transition
+                    duration-200
+                    group-hover:scale-110
+                  "
+                />
+
+                <div class="absolute left-2 top-2 flex gap-2">
+                  <span
+                    class="
+                      rounded
+                      bg-white
+                      px-3
+                      py-1.5
+                      text-sm
+                      font-bold
+                      uppercase
+                      tracking-wider
+                      text-gray-800
+                    "
+                    >Mobil baru</span
+                  >
+                </div>
+              </a>
+
+              <div class="flex items-start justify-between gap-2 px-2">
+                <div class="w-10/12 pr-4">
+                  <a
+                    href="#"
+                    class="
+                      font-bold
+                      capitalize
+                      text-gray-800
+                      transition
+                      duration-100
+                      hover:text-gray-500
+                    "
+                    >produk_judul 2018 Mercedes-Benz GLA 200 AMG 1.6</a
+                  >
+                </div>
+
+                <div class="w-2/12">
+                  <img
+                    alt="testimonial"
+                    class="
+                      mx-auto
+                      inline-block
+                      h-16
+                      w-16
+                      rounded-full
+                      border-white
+                      object-cover object-center
+                    "
+                    src="https://wickedblocks.dev/assets/images/avatar.png"
+                  />
+                </div>
+              </div>
+              <div class="text-semibold mt-4 flex gap-2 text-xs text-gray-400">
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.161 2.58a1.875 1.875 0 011.678 0l4.993 2.498c.106.052.23.052.336 0l3.869-1.935A1.875 1.875 0 0121.75 4.82v12.485c0 .71-.401 1.36-1.037 1.677l-4.875 2.437a1.875 1.875 0 01-1.676 0l-4.994-2.497a.375.375 0 00-.336 0l-3.868 1.935A1.875 1.875 0 012.25 19.18V6.695c0-.71.401-1.36 1.036-1.677l4.875-2.437zM9 6a.75.75 0 01.75.75V15a.75.75 0 01-1.5 0V6.75A.75.75 0 019 6zm6.75 3a.75.75 0 00-1.5 0v8.25a.75.75 0 001.5 0V9z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">123.000 km</p>
+                </span>
+                |
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.828 2.25c-.916 0-1.699.663-1.85 1.567l-.091.549a.798.798 0 01-.517.608 7.45 7.45 0 00-.478.198.798.798 0 01-.796-.064l-.453-.324a1.875 1.875 0 00-2.416.2l-.243.243a1.875 1.875 0 00-.2 2.416l.324.453a.798.798 0 01.064.796 7.448 7.448 0 00-.198.478.798.798 0 01-.608.517l-.55.092a1.875 1.875 0 00-1.566 1.849v.344c0 .916.663 1.699 1.567 1.85l.549.091c.281.047.508.25.608.517.06.162.127.321.198.478a.798.798 0 01-.064.796l-.324.453a1.875 1.875 0 00.2 2.416l.243.243c.648.648 1.67.733 2.416.2l.453-.324a.798.798 0 01.796-.064c.157.071.316.137.478.198.267.1.47.327.517.608l.092.55c.15.903.932 1.566 1.849 1.566h.344c.916 0 1.699-.663 1.85-1.567l.091-.549a.798.798 0 01.517-.608 7.52 7.52 0 00.478-.198.798.798 0 01.796.064l.453.324a1.875 1.875 0 002.416-.2l.243-.243c.648-.648.733-1.67.2-2.416l-.324-.453a.798.798 0 01-.064-.796c.071-.157.137-.316.198-.478.1-.267.327-.47.608-.517l.55-.091a1.875 1.875 0 001.566-1.85v-.344c0-.916-.663-1.699-1.567-1.85l-.549-.091a.798.798 0 01-.608-.517 7.507 7.507 0 00-.198-.478.798.798 0 01.064-.796l.324-.453a1.875 1.875 0 00-.2-2.416l-.243-.243a1.875 1.875 0 00-2.416-.2l-.453.324a.798.798 0 01-.796.064 7.462 7.462 0 00-.478-.198.798.798 0 01-.517-.608l-.091-.55a1.875 1.875 0 00-1.85-1.566h-.344zM12 15.75a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">AT</p>
+                </span>
+                |
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">Jakarta Utara</p>
+                </span>
+              </div>
+              <hr class="my-2" />
+              <div class="flex items-end justify-between">
+                <div class="px-2">
+                  <a
+                    href="#"
+                    class="
+                      text-2xl
+                      font-bold
+                      capitalize
+                      text-blue-600
+                      transition
+                      duration-100
+                      hover:text-gray-500
+                    "
+                  >
+                    3.000.000
+                    <span class="text-semibold text-xs text-gray-700"
+                      >/bulan
+                    </span>
+                  </a>
+                  <p class="text-xs">Uang muka mulai dari Rp. 23.000.000</p>
+                </div>
+                <button
+                  href="#"
+                  class="
+                    h-10
+                    w-10
+                    scale-100
+                    rounded-full
+                    border border-blue-600
+                    bg-transparent
+                    text-sm
+                    font-bold
+                    uppercase
+                    text-blue-600
+                    transition
+                    duration-150
+                    hover:scale-105
+                    hover:bg-blue-700
+                    hover:text-yellow-400
+                    hover:shadow-lg
+                    hover:shadow-blue-700/50
+                    focus:z-10
+                    focus:outline-none
+                    focus:ring-4
+                    focus:ring-gray-200
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="mx-auto h-6 w-6"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="rounded-xl w-80 bg-white p-2">
+              <a
+                href="#"
+                class="
+                  group
+                  relative
+                  mb-2
+                  block
+                  h-72
+                  overflow-hidden
+                  rounded-lg
+                  bg-gray-100
+                  lg:mb-3
+                "
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
+                  loading="lazy"
+                  alt="Photo by Austin Wade"
+                  class="
+                    h-full
+                    w-full
+                    object-cover object-center
+                    transition
+                    duration-200
+                    group-hover:scale-110
+                  "
+                />
+
+                <div class="absolute left-2 top-2 flex gap-2">
+                  <span
+                    class="
+                      rounded
+                      bg-white
+                      px-3
+                      py-1.5
+                      text-sm
+                      font-bold
+                      uppercase
+                      tracking-wider
+                      text-gray-800
+                    "
+                    >Mobil baru</span
+                  >
+                </div>
+              </a>
+
+              <div class="flex items-start justify-between gap-2 px-2">
+                <div class="w-10/12 pr-4">
+                  <a
+                    href="#"
+                    class="
+                      font-bold
+                      capitalize
+                      text-gray-800
+                      transition
+                      duration-100
+                      hover:text-gray-500
+                    "
+                    >produk_judul 2018 Mercedes-Benz GLA 200 AMG 1.6</a
+                  >
+                </div>
+
+                <div class="w-2/12">
+                  <img
+                    alt="testimonial"
+                    class="
+                      mx-auto
+                      inline-block
+                      h-16
+                      w-16
+                      rounded-full
+                      border-white
+                      object-cover object-center
+                    "
+                    src="https://wickedblocks.dev/assets/images/avatar.png"
+                  />
+                </div>
+              </div>
+              <div class="text-semibold mt-4 flex gap-2 text-xs text-gray-400">
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.161 2.58a1.875 1.875 0 011.678 0l4.993 2.498c.106.052.23.052.336 0l3.869-1.935A1.875 1.875 0 0121.75 4.82v12.485c0 .71-.401 1.36-1.037 1.677l-4.875 2.437a1.875 1.875 0 01-1.676 0l-4.994-2.497a.375.375 0 00-.336 0l-3.868 1.935A1.875 1.875 0 012.25 19.18V6.695c0-.71.401-1.36 1.036-1.677l4.875-2.437zM9 6a.75.75 0 01.75.75V15a.75.75 0 01-1.5 0V6.75A.75.75 0 019 6zm6.75 3a.75.75 0 00-1.5 0v8.25a.75.75 0 001.5 0V9z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">123.000 km</p>
+                </span>
+                |
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.828 2.25c-.916 0-1.699.663-1.85 1.567l-.091.549a.798.798 0 01-.517.608 7.45 7.45 0 00-.478.198.798.798 0 01-.796-.064l-.453-.324a1.875 1.875 0 00-2.416.2l-.243.243a1.875 1.875 0 00-.2 2.416l.324.453a.798.798 0 01.064.796 7.448 7.448 0 00-.198.478.798.798 0 01-.608.517l-.55.092a1.875 1.875 0 00-1.566 1.849v.344c0 .916.663 1.699 1.567 1.85l.549.091c.281.047.508.25.608.517.06.162.127.321.198.478a.798.798 0 01-.064.796l-.324.453a1.875 1.875 0 00.2 2.416l.243.243c.648.648 1.67.733 2.416.2l.453-.324a.798.798 0 01.796-.064c.157.071.316.137.478.198.267.1.47.327.517.608l.092.55c.15.903.932 1.566 1.849 1.566h.344c.916 0 1.699-.663 1.85-1.567l.091-.549a.798.798 0 01.517-.608 7.52 7.52 0 00.478-.198.798.798 0 01.796.064l.453.324a1.875 1.875 0 002.416-.2l.243-.243c.648-.648.733-1.67.2-2.416l-.324-.453a.798.798 0 01-.064-.796c.071-.157.137-.316.198-.478.1-.267.327-.47.608-.517l.55-.091a1.875 1.875 0 001.566-1.85v-.344c0-.916-.663-1.699-1.567-1.85l-.549-.091a.798.798 0 01-.608-.517 7.507 7.507 0 00-.198-.478.798.798 0 01.064-.796l.324-.453a1.875 1.875 0 00-.2-2.416l-.243-.243a1.875 1.875 0 00-2.416-.2l-.453.324a.798.798 0 01-.796.064 7.462 7.462 0 00-.478-.198.798.798 0 01-.517-.608l-.091-.55a1.875 1.875 0 00-1.85-1.566h-.344zM12 15.75a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">AT</p>
+                </span>
+                |
+                <span class="flex items-center gap-1"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-5 w-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  <p class="">Jakarta Utara</p>
+                </span>
+              </div>
+              <hr class="my-2" />
+              <div class="flex items-end justify-between">
+                <div class="px-2">
+                  <a
+                    href="#"
+                    class="
+                      text-2xl
+                      font-bold
+                      capitalize
+                      text-blue-600
+                      transition
+                      duration-100
+                      hover:text-gray-500
+                    "
+                  >
+                    3.000.000
+                    <span class="text-semibold text-xs text-gray-700"
+                      >/bulan
+                    </span>
+                  </a>
+                  <p class="text-xs">Uang muka mulai dari Rp. 23.000.000</p>
+                </div>
+                <button
+                  href="#"
+                  class="
+                    h-10
+                    w-10
+                    scale-100
+                    rounded-full
+                    border border-blue-600
+                    bg-transparent
+                    text-sm
+                    font-bold
+                    uppercase
+                    text-blue-600
+                    transition
+                    duration-150
+                    hover:scale-105
+                    hover:bg-blue-700
+                    hover:text-yellow-400
+                    hover:shadow-lg
+                    hover:shadow-blue-700/50
+                    focus:z-10
+                    focus:outline-none
+                    focus:ring-4
+                    focus:ring-gray-200
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="mx-auto h-6 w-6"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>

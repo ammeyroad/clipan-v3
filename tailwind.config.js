@@ -61,7 +61,7 @@ module.exports = {
         fly: "fly 6s cubic-bezier(0.75, 0.02, 0.31, 0.87) infinite",
         heartBeat: "heartBeat 1s cubic-bezier(0.75, 0.02, 0.31, 0.87) infinite",
         progress: "progress 5s linear",
-        infinitescroll: "infinitescroll 25s linear infinite"
+        infinitescroll: "infinitescroll 45s linear infinite"
       },
       keyframes: {
         fly: {

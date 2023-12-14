@@ -1,67 +1,104 @@
 <template>
-  <section class=" py-24">
-    <div class="max-w-screen-lg px-5 mx-auto space-y-12">
-      <div class="grid grid-cols-1 sm:gap-10 sm:grid-cols-12">
-        <!-- simulasi -->
-        <div class="col-span-7 mb-10">
-          <div class="text-left mb-10">
-            <p class="font-semibold text-sm xl:text-xl"></p>
-            <span
-              class="
-                bg-yellow-400
-                text-black text-xs
-                font-medium
-                mr-2
-                px-2.5
-                py-1.5
-                rounded-xl
-              "
-              >Skema Perhitungan</span
-            >
-            <h3 class=" text-2xl pt-2 font-bold md:text-4xl">
-              Simulasi Mobil Baru
-            </h3>
-            <garis />
-
-           
+  <!-- slider -->
+  <section class="grid h-max content-center bg-blue-600">
+    <div
+      class="
+        container
+        mx-auto
+        my-12
+        flex-row-reverse
+        items-center
+        gap-12
+        p-6
+        sm:my-16 sm:flex
+      "
+    >
+      <div class="sm:w-1/2">
+        <div class="flex w-full">
+          <div class="mb-8 sm:p-4">
+            <img
+              src="https://clipan-v3.netlify.app/slider-1.png"
+              loading="lazy"
+              alt="Photo by Kaung Htet"
+              class="h-full w-full object-cover object-center"
+            />
           </div>
-          <SimulasiNew />
         </div>
-        <!-- hasil simulasi -->
-        <div
+      </div>
+      <div class="text-center text-white sm:w-1/2 sm:text-left">
+        <span
           class="
-            col-span-5
-            relative
-            rounded-xl
-            border
-            p-2
-            bg-white
-            overflow-hidden
-            shadow-[0_5px_0_0_#10b981]
-            transition-shadow
-            hover:shadow-[0_16px_24px_-8px_rgba(16,185,129,.3)]
+            rounded-full
+            bg-yellow-400
+            px-2.5
+            py-1.5
+            text-center text-xs
+            font-bold
+            uppercase
+            text-black
+          "
+          >Produk Mobil Baru</span
+        >
+        <h1
+          class="
+            my-2
+            mb-6
+            text-4xl text-white
+            font-bold
+            capitalize
+            drop-shadow-
           "
         >
-          <!-- <div class="text-center mb-6">
-        <p class="font-bold text-lg text-yellow-500">Skema</p>
-        <h3 class="mb-4 font-bold text-xl">Perhitungan</h3>
-        <p class="">
-          Detail bunga dalam pembiayaan dengan jamina n BPKB mobil :
+          slider_judul disini
+        </h1>
+        <p class="mb-8">
+          slider_deskripsi filler text, also known as placeholder text. It
+          shares some characteristics of a real written text but is random.
         </p>
-      </div> -->
 
-          <!-- <div v-for="n in 4" class="flex border-b py-2 justify-between">
-        <p>bunga perBulan</p>
-        <p>0,8%</p>
-      </div> -->
-
-          <SimulasiHasil />
+        <div class="flex justify-center gap-2 sm:justify-start">
+          <a
+            href="#"
+            class="
+              mb-2
+              me-2
+              rounded-full
+              border border-gray-200
+              bg-white
+              px-5
+              py-2.5
+              text-sm
+              font-medium
+              text-gray-900
+              hover:bg-gray-100 hover:text-blue-700 hover:shadow-lg
+              focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200
+            "
+            >slider_link</a
+          >
+          <a
+            href="#"
+            class="
+              mb-2
+              me-2
+              rounded-full
+              border border-gray-200
+              px-5
+              py-2.5
+              text-sm
+              font-medium
+              text-white
+              hover:bg-gray-100 hover:text-blue-700 hover:shadow-lg
+              focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200
+            "
+            >Simulasi</a
+          >
         </div>
       </div>
     </div>
   </section>
 
-  <section class="grid h-max content-center bg-blue-600/5">
+  <!-- penjelasan -->
+  <section class="grid h-max content-center">
     <div class="container mx-auto mt-12 items-center gap-12 p-6 sm:my-16">
       <div class="text-center text-gray-700">
         <div>
@@ -75,25 +112,25 @@
               font-bold
               uppercase
             "
-            >Penjelasan Mobil Baru</span
+            >produk_section</span
           >
           <h1
             class="
               my-2
               mb-6
-              text-2xl
+              text-3xl
               font-bold
               capitalize
               text-blue-600
-              drop-shadow
+              drop-shadow-sm
             "
           >
-            Heading promo mobil baru disini
+            produk_judul disini
           </h1>
-          <p class="mx-auto mb-8 max-w-screen-md leading-relaxed">
-            Clipan Finance merupakan anak perusahaan Bank Panin yang menyediakan
-            fasilitas pembiayaan mobil baru dengan beragam program pembiayaan
-            yang menarik.
+          <p class="mx-auto mb-8 max-w-screen-md">
+            produk_deskripsi merupakan anak perusahaan Bank Panin yang
+            menyediakan fasilitas pembiayaan mobil baru dengan beragam program
+            pembiayaan yang menarik.
           </p>
           <div class="flex justify-center gap-2">
             <a
@@ -146,15 +183,10 @@
           class="
             mx-auto
             mt-16
-            grid
-            max-w-screen-lg
-            grid-cols-2
+           
+            grid grid-cols-2
             divide-x divide-y divide-gray-100
-            overflow-hidden
-            rounded-xl
-            border
-            shadow-xl
-            hover:border-0
+             hover:border-1
             sm:grid-cols-4
             lg:divide-y-0
             xl:grid-cols-4
@@ -163,13 +195,57 @@
           <div
             class="
               group
-              bg-white
               transition
+              rounded-xl
               hover:z-[1]
               hover:bg-blue-600
               hover:text-white
-              hover:shadow-xl
-              hover:shadow-blue-600/10
+              hover:shadow-lg
+              hover:shadow-blue-600/50
+            "
+          >
+            <div class="space-y-8 p-4 py-8">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="mx-auto h-10 w-10"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M17.303 5.197A7.5 7.5 0 006.697 15.803a.75.75 0 01-1.061 1.061A9 9 0 1121 10.5a.75.75 0 01-1.5 0c0-1.92-.732-3.839-2.197-5.303zm-2.121 2.121a4.5 4.5 0 00-6.364 6.364.75.75 0 11-1.06 1.06A6 6 0 1118 10.5a.75.75 0 01-1.5 0c0-1.153-.44-2.303-1.318-3.182zm-3.634 1.314a.75.75 0 01.82.311l5.228 7.917a.75.75 0 01-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 01-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 01-1.247-.606l.569-9.47a.75.75 0 01.554-.68z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <div class="space-y-2">
+                <h5
+                  class="
+                    text-xl
+                    font-medium
+                    text-blue-600
+                    group-hover:text-yellow-400
+                  "
+                >
+                  feature_judul
+                </h5>
+                <p class="text-sm">
+                  feature_deskripsi, fugiat non cum doloribus aperiam voluptates
+                  nostrum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="
+              group
+              transition
+              rounded-xl
+              hover:z-[1]
+              hover:bg-blue-600
+              hover:text-white
+              hover:shadow-lg
+              hover:shadow-blue-600/50
             "
           >
             <div class="space-y-8 p-4 py-8">
@@ -207,13 +283,13 @@
           <div
             class="
               group
-              bg-white
               transition
+              rounded-xl
               hover:z-[1]
               hover:bg-blue-600
               hover:text-white
-              hover:shadow-xl
-              hover:shadow-blue-600/10
+              hover:shadow-lg
+              hover:shadow-blue-600/50
             "
           >
             <div class="space-y-8 p-4 py-8">
@@ -251,57 +327,13 @@
           <div
             class="
               group
-              bg-white
               transition
+              rounded-xl
               hover:z-[1]
               hover:bg-blue-600
               hover:text-white
-              hover:shadow-xl
-              hover:shadow-blue-600/10
-            "
-          >
-            <div class="space-y-8 p-4 py-8">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="mx-auto h-10 w-10"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M17.303 5.197A7.5 7.5 0 006.697 15.803a.75.75 0 01-1.061 1.061A9 9 0 1121 10.5a.75.75 0 01-1.5 0c0-1.92-.732-3.839-2.197-5.303zm-2.121 2.121a4.5 4.5 0 00-6.364 6.364.75.75 0 11-1.06 1.06A6 6 0 1118 10.5a.75.75 0 01-1.5 0c0-1.153-.44-2.303-1.318-3.182zm-3.634 1.314a.75.75 0 01.82.311l5.228 7.917a.75.75 0 01-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 01-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 01-1.247-.606l.569-9.47a.75.75 0 01.554-.68z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-
-              <div class="space-y-2">
-                <h5
-                  class="
-                    text-xl
-                    font-medium
-                    text-blue-600
-                    group-hover:text-yellow-400
-                  "
-                >
-                  First feature
-                </h5>
-                <p class="text-sm">
-                  Neque Dolor, fugiat non cum doloribus aperiam voluptates
-                  nostrum.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="
-              group
-              bg-white
-              transition
-              hover:z-[1]
-              hover:bg-blue-600
-              hover:text-white
-              hover:shadow-xl
-              hover:shadow-blue-600/10
+              hover:shadow-lg
+              hover:shadow-blue-600/50
             "
           >
             <div class="space-y-8 p-4 py-8">
@@ -340,393 +372,8 @@
       </div>
     </div>
   </section>
-
-  <!-- persyaratan -->
-  <section class="-mt-48 grid h-max content-center bg-blue-600 py-32">
-    <div
-      class="container mx-auto mt-24 items-center gap-12 p-6 sm:my-16 sm:flex"
-    >
-      <div class="sm:w-2/5">
-        <span
-          class="
-            rounded-full
-            bg-yellow-400
-            px-2.5
-            py-1.5
-            text-center text-xs
-            font-bold
-            uppercase
-          "
-          >Syarat</span
-        >
-        <h1
-          class="my-2 mb-6 text-2xl font-bold capitalize text-white drop-shadow"
-        >
-          Perysaratan Kredit
-        </h1>
-        <p class="mx-auto mb-8 max-w-screen-md leading-relaxed text-white">
-          Clipan Finance merupakan anak perusahaan Bank Panin yang menyediakan
-          fasilitas pembiayaan mobil baru dengan beragam program pembiayaan yang
-          menarik.
-        </p>
-        <div
-          class="
-            grid grid-cols-3
-            gap-1
-            rounded-xl
-            bg-black/10
-            p-1
-            sm:grid-cols-1 sm:gap-4 sm:bg-transparent
-          "
-        >
-          <button
-            type="button"
-            class="
-              flex
-              items-center
-              rounded-lg
-              border border-black/10
-              bg-yellow-400
-              py-3
-              pl-2
-              text-center text-base
-              font-medium
-              text-black
-              hover:bg-yellow-500
-              focus:outline-none focus:ring-4 focus:ring-yellow-300
-            "
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              class="mr-2 h-4 w-4"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
-                clip-rule="evenodd"
-              />
-            </svg>
-            <span class="text-xs font-semibold uppercase sm:text-lg"
-              >Perorangan</span
-            >
-          </button>
-          <button
-            type="button"
-            class="
-              flex
-              items-center
-              rounded-lg
-              border border-black/10
-              bg-white/10
-              py-3
-              pl-2
-              text-center text-base
-              font-medium
-              text-white
-              hover:bg-yellow-400 hover:text-black
-              focus:outline-none focus:ring-4 focus:ring-yellow-300
-            "
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              class="mr-2 h-4 w-4"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
-                clip-rule="evenodd"
-              />
-            </svg>
-            <span class="text-xs font-semibold uppercase sm:text-lg"
-              >perusahaan</span
-            >
-          </button>
-          <button
-            type="button"
-            class="
-              flex
-              items-center
-              rounded-lg
-              border border-black/10
-              bg-white/10
-              py-3
-              pl-2
-              text-center text-base
-              font-medium
-              text-white
-              hover:bg-yellow-400 hover:text-black
-              focus:outline-none focus:ring-4 focus:ring-yellow-300
-            "
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              class="mr-2 h-4 w-4"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
-                clip-rule="evenodd"
-              />
-            </svg>
-            <span class="text-xs font-semibold uppercase sm:text-lg"
-              >perusahaan</span
-            >
-          </button>
-        </div>
-      </div>
-      <div class="mt-6 sm:mt-0 sm:w-3/5">
-        <div
-          class="
-            rounded-lg
-            border-2 border-white
-            bg-gradient-to-br
-            from-white
-            to-gray-50
-            p-6
-            shadow-xl
-          "
-        >
-          <h1
-            class="
-              mb-2
-              border-b
-              pb-2
-              text-lg
-              font-semibold
-              uppercase
-              text-blue-600
-            "
-          >
-            Syarat untuk Karyawan
-          </h1>
-          <ul
-            class="
-              gap-
-              grid
-              list-inside
-              space-y-1
-              text-gray-500
-              dark:text-gray-400
-              sm:grid-cols-2
-            "
-          >
-            <li class="flex items-center capitalize">
-              <svg
-                class="
-                  me-2
-                  h-3.5
-                  w-3.5
-                  flex-shrink-0
-                  text-green-500
-                  dark:text-green-400
-                "
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
-                />
-              </svg>
-              Identitas Pemohon
-            </li>
-            <li class="flex items-center capitalize">
-              <svg
-                class="
-                  me-2
-                  h-3.5
-                  w-3.5
-                  flex-shrink-0
-                  text-green-500
-                  dark:text-green-400
-                "
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
-                />
-              </svg>
-              Identitas Penjamin*
-            </li>
-            <li class="flex items-center capitalize">
-              <svg
-                class="
-                  me-2
-                  h-3.5
-                  w-3.5
-                  flex-shrink-0
-                  text-green-500
-                  dark:text-green-400
-                "
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
-                />
-              </svg>
-              Kartu Keluarga atau akte nikah
-            </li>
-            <li class="flex items-center capitalize">
-              <svg
-                class="
-                  me-2
-                  h-3.5
-                  w-3.5
-                  flex-shrink-0
-                  text-green-500
-                  dark:text-green-400
-                "
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
-                />
-              </svg>
-              Surat Cerai/Surat Kematian**
-            </li>
-            <li class="flex items-center capitalize">
-              <svg
-                class="
-                  me-2
-                  h-3.5
-                  w-3.5
-                  flex-shrink-0
-                  text-green-500
-                  dark:text-green-400
-                "
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
-                />
-              </svg>
-              NPWP
-            </li>
-            <li class="flex items-center capitalize">
-              <svg
-                class="
-                  me-2
-                  h-3.5
-                  w-3.5
-                  flex-shrink-0
-                  text-green-500
-                  dark:text-green-400
-                "
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
-                />
-              </svg>
-              Slip Gaji
-            </li>
-            <li class="flex items-center capitalize">
-              <svg
-                class="
-                  me-2
-                  h-3.5
-                  w-3.5
-                  flex-shrink-0
-                  text-green-500
-                  dark:text-green-400
-                "
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
-                />
-              </svg>
-              Dokumen Pendukung***
-            </li>
-            <li class="flex items-center capitalize">
-              <svg
-                class="
-                  me-2
-                  h-3.5
-                  w-3.5
-                  flex-shrink-0
-                  text-green-500
-                  dark:text-green-400
-                "
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
-                />
-              </svg>
-              Izin Trayek Angkutan****
-            </li>
-          </ul>
-          <div
-            class="
-              my-4
-              space-y-1
-              rounded-lg
-              bg-gray-100
-              p-2
-              text-xs text-gray-500
-            "
-          >
-            <p class="font-bold">
-              Identitas berbentuk KTP atau Paspor atau KIMS
-            </p>
-            <p>*Identitas Istri jika sudah menikah</p>
-            <p>**Pemohon berstatus Janda/Duda</p>
-            <p>****Khusus Pembiayaan Angkutan</p>
-            <p class="col-p-2">
-              ***Sertifikat/Akta Jual Beli/PBB/Rekening Listrik/Telepon/PAM
-            </p>
-          </div>
-          <div class="flex justify-end">
-            <span
-              class="
-                rounded
-                bg-gray-100
-                px-2.5
-                py-1.5
-                text-center text-sm
-                font-semibold
-                capitalize
-                hover:bg-blue-600 hover:text-white
-              "
-              >Unduh persyaratan</span
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="grid h-max content-center pt-24 pb-48 bg-blue-600/5">
-    <div class="container mx-auto mt-12 items-center p-6 sm:mt-16">
+  <section class="grid h-max content-center">
+    <div class="container mx-auto items-center p-6 ">
       <div class="text-gray-700">
         <span
           class="
@@ -1429,34 +1076,11 @@
       </div>
     </div>
   </section>
-
-  <!-- slider -->
-  <section class="grid h-max content-center bg-blue-600">
+  <section class="-mt-44 grid h-max content-center bg-blue-600 py-32">
     <div
-      class="
-        container
-        mx-auto
-        my-12
-        flex-row-reverse
-        items-center
-        gap-12
-        p-6
-        sm:my-16 sm:flex
-      "
+      class="container mx-auto mt-32 items-center gap-12 p-6 sm:my-16 sm:flex"
     >
-      <div class="sm:w-1/2">
-        <div class="flex w-full">
-          <div class="mb-8 sm:p-4">
-            <img
-              src="https://clipan-v3.netlify.app/slider-1.png"
-              loading="lazy"
-              alt="Photo by Kaung Htet"
-              class="h-full w-full object-cover object-center"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="text-center text-white sm:w-1/2 sm:text-left">
+      <div class="sm:w-2/5">
         <span
           class="
             rounded-full
@@ -1466,56 +1090,765 @@
             text-center text-xs
             font-bold
             uppercase
-            text-black
           "
-          >Produk Mobil Baru</span
+          >Syarat</span
         >
-        <h1 class="my-2 mb-6 text-4xl font-bold capitalize drop-shadow">
-          Heading promo mobil baru disini
+        <h1
+          class="my-2 mb-6 text-2xl font-bold capitalize text-white drop-shadow"
+        >
+          Perysaratan Kredit
         </h1>
-        <p class="mb-8 leading-relaxed">
-          Deskripsi singkat filler text, also known as placeholder text. It
-          shares some characteristics of a real written text but is random.
+        <p class="mx-auto mb-8 max-w-screen-md leading-relaxed text-white">
+          Clipan Finance merupakan anak perusahaan Bank Panin yang menyediakan
+          fasilitas pembiayaan mobil baru dengan beragam program pembiayaan yang
+          menarik.
         </p>
-
-        <div class="flex justify-center gap-2 sm:justify-start">
-          <a
-            href="#"
+        <div
+          class="
+            grid grid-cols-3
+            gap-1
+            rounded-xl
+            bg-black/10
+            p-1
+            sm:grid-cols-1 sm:gap-4 sm:bg-transparent
+          "
+        >
+          <button
+            type="button"
             class="
-              mb-2
-              me-2
-              rounded-full
-              border border-gray-200
-              bg-white
-              px-5
-              py-2.5
-              text-sm
+              flex
+              items-center
+              rounded-lg
+              border border-black/10
+              bg-yellow-400
+              py-3
+              pl-2
+              text-center text-base
               font-medium
-              text-gray-900
-              hover:bg-gray-100 hover:text-blue-700 hover:shadow-lg
-              focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200
+              text-black
+              hover:bg-yellow-500
+              focus:outline-none focus:ring-4 focus:ring-yellow-300
             "
-            >Selengkapnya</a
           >
-          <a
-            href="#"
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="mr-2 h-4 w-4"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="text-xs font-semibold uppercase sm:text-lg"
+              >Perorangan</span
+            >
+          </button>
+          <button
+            type="button"
             class="
-              mb-2
-              me-2
-              rounded-full
-              border border-gray-200
-              px-5
-              py-2.5
-              text-sm
+              flex
+              items-center
+              rounded-lg
+              border border-black/10
+              bg-white/10
+              py-3
+              pl-2
+              text-center text-base
               font-medium
               text-white
-              hover:bg-gray-100 hover:text-blue-700 hover:shadow-lg
-              focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200
+              hover:bg-yellow-400 hover:text-black
+              focus:outline-none focus:ring-4 focus:ring-yellow-300
             "
-            >Simulasi</a
           >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="mr-2 h-4 w-4"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="text-xs font-semibold uppercase sm:text-lg"
+              >perusahaan</span
+            >
+          </button>
+          <button
+            type="button"
+            class="
+              flex
+              items-center
+              rounded-lg
+              border border-black/10
+              bg-white/10
+              py-3
+              pl-2
+              text-center text-base
+              font-medium
+              text-white
+              hover:bg-yellow-400 hover:text-black
+              focus:outline-none focus:ring-4 focus:ring-yellow-300
+            "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="mr-2 h-4 w-4"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="text-xs font-semibold uppercase sm:text-lg"
+              >perusahaan</span
+            >
+          </button>
+        </div>
+      </div>
+      <div class="mt-6 sm:mt-0 sm:w-3/5">
+        <div
+          class="
+            rounded-lg
+            border-2 border-white
+            bg-gradient-to-br
+            from-white
+            to-gray-50
+            p-6
+            shadow-xl
+          "
+        >
+          <h1
+            class="
+              mb-2
+              border-b
+              pb-2
+              text-lg
+              font-semibold
+              uppercase
+              text-blue-600
+            "
+          >
+            Syarat untuk Karyawan
+          </h1>
+          <ul
+            class="
+              gap-
+              grid
+              list-inside
+              space-y-1
+              text-gray-500
+              dark:text-gray-400
+              sm:grid-cols-2
+            "
+          >
+            <li class="flex items-center capitalize">
+              <svg
+                class="
+                  me-2
+                  h-3.5
+                  w-3.5
+                  flex-shrink-0
+                  text-green-500
+                  dark:text-green-400
+                "
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              Identitas Pemohon
+            </li>
+            <li class="flex items-center capitalize">
+              <svg
+                class="
+                  me-2
+                  h-3.5
+                  w-3.5
+                  flex-shrink-0
+                  text-green-500
+                  dark:text-green-400
+                "
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              Identitas Penjamin*
+            </li>
+            <li class="flex items-center capitalize">
+              <svg
+                class="
+                  me-2
+                  h-3.5
+                  w-3.5
+                  flex-shrink-0
+                  text-green-500
+                  dark:text-green-400
+                "
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              Kartu Keluarga atau akte nikah
+            </li>
+            <li class="flex items-center capitalize">
+              <svg
+                class="
+                  me-2
+                  h-3.5
+                  w-3.5
+                  flex-shrink-0
+                  text-green-500
+                  dark:text-green-400
+                "
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              Surat Cerai/Surat Kematian**
+            </li>
+            <li class="flex items-center capitalize">
+              <svg
+                class="
+                  me-2
+                  h-3.5
+                  w-3.5
+                  flex-shrink-0
+                  text-green-500
+                  dark:text-green-400
+                "
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              NPWP
+            </li>
+            <li class="flex items-center capitalize">
+              <svg
+                class="
+                  me-2
+                  h-3.5
+                  w-3.5
+                  flex-shrink-0
+                  text-green-500
+                  dark:text-green-400
+                "
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              Slip Gaji
+            </li>
+            <li class="flex items-center capitalize">
+              <svg
+                class="
+                  me-2
+                  h-3.5
+                  w-3.5
+                  flex-shrink-0
+                  text-green-500
+                  dark:text-green-400
+                "
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              Dokumen Pendukung***
+            </li>
+            <li class="flex items-center capitalize">
+              <svg
+                class="
+                  me-2
+                  h-3.5
+                  w-3.5
+                  flex-shrink-0
+                  text-green-500
+                  dark:text-green-400
+                "
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                />
+              </svg>
+              Izin Trayek Angkutan****
+            </li>
+          </ul>
+          <div
+            class="
+              my-4
+              space-y-1
+              rounded-lg
+              bg-gray-100
+              p-2
+              text-xs text-gray-500
+            "
+          >
+            <p class="font-bold">
+              Identitas berbentuk KTP atau Paspor atau KIMS
+            </p>
+            <p>*Identitas Istri jika sudah menikah</p>
+            <p>**Pemohon berstatus Janda/Duda</p>
+            <p>****Khusus Pembiayaan Angkutan</p>
+            <p class="col-p-2">
+              ***Sertifikat/Akta Jual Beli/PBB/Rekening Listrik/Telepon/PAM
+            </p>
+          </div>
+          <div class="flex justify-end">
+            <span
+              class="
+                rounded
+                bg-gray-100
+                px-2.5
+                py-1.5
+                text-center text-sm
+                font-semibold
+                capitalize
+                hover:bg-blue-600 hover:text-white
+              "
+              >Unduh persyaratan</span
+            >
+          </div>
         </div>
       </div>
     </div>
   </section>
+
+  <section class="py-24">
+    <div class="grid sm:grid-cols-5 gap-16 sm:px-10 p-8 container mx-auto">
+      <div class="sm:col-span-2">
+        <div
+          class="
+            hover:shadow-blue-600/50/50
+            rounded-xl
+            border
+            bg-gray-50
+            duration-200
+            hover:shadow-lg hover:shadow-blue-600/50
+          "
+        >
+          <div
+            class="items-bottom justify-between rounded-t-xl bg-blue-600 py-5"
+          >
+            <h4
+              class="
+                mx-auto
+                -mt-2
+                text-center text-xl
+                font-bold
+                uppercase
+                text-white
+              "
+            >
+              simulasi_judul
+            </h4>
+            <p class="mx-auto px-10 text-center text-sm capitalize text-white">
+              simulasi_deskripsi berikut hal-hal dasar yang menjadi acuan untuk
+              simulasi kredit mobil baru :
+            </p>
+          </div>
+          <div class="px-4">
+            <div
+              class="
+                flex
+                items-center
+                justify-between
+                border-b border-dashed
+                px-2
+                py-4
+              "
+            >
+              <p class="text-sm font-semibold">detail_judul</p>
+              <p class="text-right text-sm font-semibold text-blue-600">
+                detail_konten
+              </p>
+            </div>
+            <div
+              class="
+                flex
+                items-center
+                justify-between
+                border-b border-dashed
+                px-2
+                py-4
+              "
+            >
+              <p class="text-sm font-semibold">Bunga perTahun</p>
+              <p class="text-right text-sm font-semibold text-blue-600">2,8%</p>
+            </div>
+            <div
+              class="
+                flex
+                items-center
+                justify-between
+                border-b border-dashed
+                px-2
+                py-4
+              "
+            >
+              <p class="w-1/2 text-sm font-semibold">Tenor</p>
+              <p class="w-1/2 text-right text-sm font-semibold text-blue-600">
+                1 - 4 Tahun
+              </p>
+            </div>
+            <div
+              class="
+                flex
+                items-center
+                justify-between
+                border-b border-dashed
+                px-2
+                py-4
+              "
+            >
+              <p class="w-1/2 text-sm font-semibold">Max Pinjaman</p>
+              <p class="w-1/2 text-right text-sm font-semibold text-blue-600">
+                500 Juta
+              </p>
+            </div>
+            <div
+              class="
+                flex
+                items-center
+                justify-between
+                border-b border-dashed
+                px-2
+                py-4
+              "
+            >
+              <p class="w-1/2 text-sm font-semibold">Max Pinjaman</p>
+              <p class="w-1/2 text-right text-sm font-semibold text-blue-600">
+                500 Juta
+              </p>
+            </div>
+            <div
+              class="
+                flex
+                items-center
+                justify-between
+                border-b border-dashed
+                px-2
+                py-4
+              "
+            >
+              <p class="w-1/2 text-sm font-semibold">Max Pinjaman</p>
+              <p class="w-1/2 text-right text-sm font-semibold text-blue-600">
+                500 Juta
+              </p>
+            </div>
+            <div class="flex items-center justify-between px-2 py-4 font-bold">
+              <p class="w-1/2 text-sm font-semibold">Cashback</p>
+              <p class="w-1/2 text-right text-sm font-semibold text-blue-600">
+                2.500.000
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sm:col-span-3">
+        <div class="mb-5 text-left">
+          <p class="text-sm font-semibold xl:text-xl"></p>
+          <span
+            class="
+              mr-2
+              rounded-xl
+              bg-yellow-400
+              px-2.5
+              py-1.5
+              text-xs
+              font-medium
+              text-black
+            "
+            >simulasi_section</span
+          >
+          <h3 class="pt-2 text-xl font-bold md:text-2xl">
+            Simulasi Mobil Baru
+          </h3>
+          <garis />
+        </div>
+        <form id="contact-form" method="post" class="space-y-4">
+          <!-- domisili -->
+          <div class="space-y-6 sm:flex sm:space-x-4 sm:space-y-0">
+            <div class="sm:w-1/2">
+              <label
+                for="email"
+                class="mb-1 block text-sm font-bold uppercase text-blue-600"
+                >Domisili</label
+              >
+              <select
+                id="countries"
+                class="
+                  block
+                  w-full
+                  rounded-lg
+                  border-0
+                  bg-slate-50
+                  p-4
+                  text-sm
+                  hover:shadow-lg hover:shadow-blue-600/50
+                  focus:border-blue-900 focus:shadow focus:ring-blue-500
+                "
+              >
+                <option>jabodetabek</option>
+                <option>Makasar, Sulawesi</option>
+              </select>
+              <p id="helper-text-explanation" class="mt-1 text-xs opacity-70">
+                Sesuai KTP, SIM dan Passpor
+              </p>
+            </div>
+            <div class="sm:w-1/2">
+              <label
+                for="email"
+                class="mb-1 block text-sm font-bold uppercase text-blue-600"
+                >Asuransi</label
+              >
+              <select
+                id="countries"
+                class="
+                  block
+                  w-full
+                  rounded-lg
+                  border-0
+                  bg-slate-50
+                  p-4
+                  text-sm
+                  hover:shadow-lg hover:shadow-blue-600/50
+                  focus:border-blue-900 focus:shadow focus:ring-blue-500
+                "
+              >
+                <option>Hanya Kehilanggan</option>
+                <option>Semua Kerusakan</option>
+                <option>Gabungan</option>
+              </select>
+              <p id="helper-text-explanation" class="mt-1 text-xs opacity-70">
+                Lihat penjelasan
+                <a href="" class="font-bold text-yellow-400">lengkap</a>
+              </p>
+            </div>
+          </div>
+          <!-- harga otr -->
+          <div class="sm:flex sm:space-x-6">
+            <div class="w-full">
+              <label
+                for="email"
+                class="mb-1 block text-sm font-bold uppercase text-blue-600"
+                >Harga Kendaraan</label
+              >
+              <div class="relative">
+                <div
+                  class="
+                    pointer-events-none
+                    absolute
+                    inset-y-0
+                    left-0
+                    flex
+                    items-center
+                    pl-3
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    class="fill-blue-600"
+                  >
+                    <g fill="">
+                      <path
+                        d="m17.966 6.558l-1.83-1.83c-1.545-1.545-2.317-2.318-3.32-2.605c-1.003-.288-2.068-.042-4.197.45l-1.228.283c-1.792.413-2.688.62-3.302 1.233c-.613.614-.82 1.51-1.233 3.302l-.284 1.228c-.491 2.13-.737 3.194-.45 4.197c.288 1.003 1.061 1.775 2.606 3.32l1.83 1.83C9.248 20.657 10.592 22 12.262 22c1.671 0 3.015-1.345 5.704-4.034C20.657 15.277 22 13.933 22 12.262c0-1.67-1.345-3.015-4.034-5.704Z"
+                        opacity=".5"
+                      />
+                      <path
+                        d="M11.147 14.328c-.673-.672-.667-1.638-.265-2.403a.75.75 0 0 1 1.04-1.046c.34-.18.713-.276 1.085-.272a.75.75 0 0 1-.014 1.5a.88.88 0 0 0-.609.277c-.387.387-.285.775-.177.884c.11.109.497.21.884-.177c.784-.784 2.138-1.044 3.006-.177c.673.673.667 1.639.264 2.404a.75.75 0 0 1-1.04 1.045a2.201 2.201 0 0 1-1.472.232a.75.75 0 1 1 .302-1.47c.177.037.463-.021.708-.266c.388-.388.286-.775.177-.884c-.109-.109-.496-.21-.884.177c-.784.784-2.138 1.044-3.005.176Zm-1.126-4.035a2 2 0 1 0-2.828-2.828a2 2 0 0 0 2.828 2.828Z"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <input
+                  type="text"
+                  id="email-address-icon"
+                  class="
+                    placeholder
+                    block
+                    w-full
+                    rounded-lg
+                    border-0
+                    bg-slate-50
+                    p-4
+                    pl-12
+                    text-sm
+                    font-bold
+                    placeholder:opacity-50
+                    hover:shadow-lg hover:shadow-blue-600/50
+                    focus:border-blue-900 focus:shadow focus:ring-blue-500
+                  "
+                  placeholder="1.000.000"
+                />
+              </div>
+              <p id="helper-text-explanation" class="mt-1 text-xs opacity-70">
+                Minimal 200 Juta Rupiah
+              </p>
+            </div>
+          </div>
+          <!-- uang muka -->
+          <div class="space-y-8 sm:flex sm:space-x-6">
+            <div class="w-full">
+              <label
+                for="email"
+                class="mb-1 block text-sm font-bold uppercase text-blue-600"
+                >Uang Muka</label
+              >
+              <div class="flex gap-0.5">
+                <select
+                  id="countries"
+                  class="
+                    border-
+                    block
+                    w-1/5
+                    rounded-l-lg
+                    border-0 border-blue-800
+                    bg-slate-50
+                    p-4
+                    text-sm
+                    hover:shadow-lg hover:shadow-blue-600/50
+                    focus:border-blue-900 focus:shadow focus:ring-blue-500
+                    sm:w-1/5
+                  "
+                >
+                  <option>20%</option>
+                  <option>30%</option>
+                </select>
+                <input
+                  type="email"
+                  id="email"
+                  aria-describedby="helper-text-explanation"
+                  class="
+                    placeholder
+                    block
+                    w-4/5
+                    rounded-r-lg
+                    border-0 border-white
+                    bg-slate-50
+                    p-4
+                    text-sm
+                    font-bold
+                    placeholder:opacity-50
+                    hover:shadow-lg hover:shadow-blue-600/50
+                    focus:border-blue-900 focus:shadow focus:ring-blue-500
+                    sm:w-4/5
+                  "
+                  placeholder="213123"
+                />
+              </div>
+
+              <p id="helper-text-explanation" class="mt-1 text-xs opacity-70">
+                Minimal Uang muka 15%, maksimal 75%
+              </p>
+            </div>
+          </div>
+          <!-- button -->
+          <button
+            href="#"
+            class="
+              mb-2
+              scale-100
+              rounded-full
+              border border-blue-600
+              bg-blue-600
+              px-5
+              py-2.5
+              text-sm
+              font-bold
+              uppercase
+              text-white
+              transition
+              duration-150
+              hover:scale-105
+              hover:bg-blue-700
+              hover:text-yellow-400
+              hover:shadow-lg
+              hover:shadow-blue-700/50
+              focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200
+            "
+          >
+            <div class="flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="h-4 w-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6.32 1.827a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V19.5a3 3 0 01-3 3H6.75a3 3 0 01-3-3V4.757c0-1.47 1.073-2.756 2.57-2.93zM7.5 11.25a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H8.25a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H8.25zm-.75 3a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H8.25a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V18a.75.75 0 00-.75-.75H8.25zm1.748-6a.75.75 0 01.75-.75h.007a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.007a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.335.75.75.75h.007a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75h-.007zm-.75 3a.75.75 0 01.75-.75h.007a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.007a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.335.75.75.75h.007a.75.75 0 00.75-.75V18a.75.75 0 00-.75-.75h-.007zm1.754-6a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75h-.008zm-.75 3a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V18a.75.75 0 00-.75-.75h-.008zm1.748-6a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75h-.008zm-8.25-6A.75.75 0 018.25 6h7.5a.75.75 0 01.75.75v.75a.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75v-.75zm9 9a.75.75 0 00-1.5 0V18a.75.75 0 001.5 0v-2.25z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <p>simulasikan</p>
+            </div>
+          </button>
+
+          <div
+            id="contact-form-notice"
+            class="
+              relative
+              mt-4
+              hidden
+              rounded-lg
+              border border-transparent
+              p-4
+            "
+          ></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
 </template>

@@ -4,14 +4,14 @@
     <form id="contact-form" method="post" class="space-y-5">
       <!-- domisili -->
       <div class="sm:flex sm:space-x-6 space-y-8 sm:space-y-0">
-        <div class="sm:w-1/2 text-white">
+        <div class="sm:w-1/2">
           <label for="email" class="block mb-1 text-sm uppercase font-bold"
             >Domisili</label
           >
           <select
             id="countries"
             class="
-              bg-black/20
+              bg-white
               border-0
               text-sm
               rounded-lg
@@ -31,14 +31,14 @@
             Sesuai KTP, SIM dan Passpor
           </p>
         </div>
-        <div class="sm:w-1/2 text-white">
+        <div class="sm:w-1/2">
           <label for="email" class="block mb-1 text-sm uppercase font-bold"
             >Asuransi</label
           >
           <select
             id="countries"
             class="
-              bg-black/20
+              bg-white
               border-0
               text-sm
               rounded-lg
@@ -63,7 +63,7 @@
       </div>
       <!-- harga otr -->
       <div class="sm:flex sm:space-x-6">
-        <div class="w-full text-white">
+        <div class="w-full">
           <label for="email" class="block mb-1 text-sm uppercase font-bold"
             >Harga Kendaraan</label
           >
@@ -84,8 +84,9 @@
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
+                class="fill-blue-600"
               >
-                <g fill="#fff">
+                <g fill="">
                   <path
                     d="m17.966 6.558l-1.83-1.83c-1.545-1.545-2.317-2.318-3.32-2.605c-1.003-.288-2.068-.042-4.197.45l-1.228.283c-1.792.413-2.688.62-3.302 1.233c-.613.614-.82 1.51-1.233 3.302l-.284 1.228c-.491 2.13-.737 3.194-.45 4.197c.288 1.003 1.061 1.775 2.606 3.32l1.83 1.83C9.248 20.657 10.592 22 12.262 22c1.671 0 3.015-1.345 5.704-4.034C20.657 15.277 22 13.933 22 12.262c0-1.67-1.345-3.015-4.034-5.704Z"
                     opacity=".5"
@@ -100,7 +101,7 @@
               type="text"
               id="email-address-icon"
               class="
-                bg-black/20
+                bg-white
                 border-0
                 text-sm
                 rounded-lg
@@ -113,7 +114,7 @@
                 p-4
                 pl-12
                 font-bold
-                placeholder:text-white placeholder:opacity-50
+                placeholder placeholder:opacity-50
               "
               placeholder="1.000.000"
             />
@@ -125,7 +126,7 @@
       </div>
       <!-- uang muka -->
       <div class="sm:flex sm:space-x-6 space-y-8">
-        <div class="w-full text-white">
+        <div class="w-full">
           <label for="email" class="block mb-1 text-sm uppercase font-bold"
             >Uang Muka</label
           >
@@ -133,8 +134,8 @@
             <select
               id="countries"
               class="
-                border-l border-blue-800
-                bg-black/20
+                border- border-blue-800
+                bg-white
                 border-0
                 text-sm
                 rounded-l-lg
@@ -143,7 +144,7 @@
                 focus:shadow
                 focus:shadow-lg
                 block
-                w-2/5
+                w-1/5
                 sm:w-1/5
                 p-4
               "
@@ -156,8 +157,8 @@
               id="email"
               aria-describedby="helper-text-explanation"
               class="
-                border-l border-blue-600
-                bg-black/20
+                border-l border-black/50
+                bg-white
                 border-0
                 text-sm
                 rounded-r-lg
@@ -166,11 +167,11 @@
                 focus:shadow
                 focus:shadow-lg
                 block
-                w-3/5
+                w-4/5
                 sm:w-4/5
                 p-4
                 font-bold
-                placeholder:text-white placeholder:opacity-50
+                placeholder placeholder:opacity-50
               "
               placeholder="213123"
             />

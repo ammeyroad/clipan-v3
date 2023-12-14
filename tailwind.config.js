@@ -60,7 +60,8 @@ module.exports = {
       animation: {
         fly: "fly 6s cubic-bezier(0.75, 0.02, 0.31, 0.87) infinite",
         heartBeat: "heartBeat 1s cubic-bezier(0.75, 0.02, 0.31, 0.87) infinite",
-        progress: "progress 5s linear"
+        progress: "progress 5s linear",
+        infinitescroll: "infinitescroll 25s linear infinite"
       },
       keyframes: {
         fly: {
@@ -74,8 +75,12 @@ module.exports = {
         progress: {
           "0%": { width: "0%" },
           "100%": { width: "100%" }
+        },
+        infinitescroll: {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
         }
-      }
+      }  
     },
     namedGroups: ["dropdown"]
   },
